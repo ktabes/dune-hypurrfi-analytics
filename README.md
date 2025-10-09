@@ -6,6 +6,6 @@
 
 **How it’s built:** SQL on Dune using on-chain logs and DeFiLlama aggregates.  
 This repo is the source of truth for queries; edits here are pasted into Dune.
-- Queries: [queries](queries/)
+- Queries: [Here](queries/)
 - Live dashboard: https://dune.com/ktabes/hypurrfi-rev-tvl-capital-efficiency 
-- Screenshots: [assets](assets/)
+- Screenshots: [Here](assets/)
