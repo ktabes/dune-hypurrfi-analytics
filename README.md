@@ -8,4 +8,4 @@
 This repo is the source of truth for queries; edits here are pasted into Dune.
 - Queries: [/queries/hypurrfi](../../queries/hypurrfi)
 - Live dashboard: https://dune.com/ktabes/hypurrfi-rev-tvl-capital-efficiency 
-- Screenshots: see `/assets/hypurrfi/`
+- Screenshots: see `/assets`
