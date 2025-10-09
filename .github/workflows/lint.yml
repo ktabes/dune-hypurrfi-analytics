@@ -1,0 +1,18 @@
+name: Lint
+on: [push, pull_request]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install sqlfluff
+
+      - uses: actions/setup-node@v4
+        with: { node-version: "18" }
+      - run: npm i -g markdownlint-cli
+
+      - run: sqlfluff lint queries
+      - run: markdownlint "**/*.md" --ignore node_modules

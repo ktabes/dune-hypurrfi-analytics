@@ -1,0 +1,31 @@
+project: HypurrFi on Hyperliquid L1
+owner: Kyle Table
+tags: [dune, defi, hypurrfi, hyperliquid, lending, analytics]
+
+queries:
+  - key: tvl_history
+    file: 001_tvl_history.sql
+    purpose: Time-series TVL for HypurrFi and competitors.
+    dune_query_id: 5932268/9576906 
+    outputs: [slug, day, tvl_usd]
+
+  - key: cumulative_revenue
+    file: 002_cumulative_revenue.sql
+    purpose: Cumulative revenue by protocol for HypurrFi and competitors.
+    dune_query_id: 5933759/9578715
+    outputs: [slug, day, revenue_usd, cumulative_revenue_usd]
+
+  - key: today_snapshot
+    file: 003_today_snapshot.sql
+    purpose: Latest snapshot per protocol: TVL, 7D/30D revenue, cumulative revenue, Rev/TVL 7D/30D.
+    dune_query_id: 5932847/9577388
+    outputs:
+      [slug, name, day, tvl_usd, rev_7d, rev_30d, ann_rev_over_tvl_7d, 
+      ann_rev_over_tvl_30d, cumulative_revenue_usd]
+
+  - key: capital_efficiency_timeseries
+    file: 004_capital_efficiency_timeseries.sql
+    purpose: Time-series capital efficiency (Rev/TVL) for 7D & 30D by protocol.
+    dune_query_id: 5933761/9578761
+    outputs:
+      [slug, name, ann_rev_over_tvl_7d, ann_rev_over_tvl_30d]
