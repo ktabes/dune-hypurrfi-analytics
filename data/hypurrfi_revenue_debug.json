@@ -1,0 +1,3098 @@
+{
+  "address": null,
+  "audit_links": null,
+  "audits": null,
+  "category": null,
+  "chains": [
+    "Hyperliquid L1"
+  ],
+  "change_1d": -0.05,
+  "cmcId": null,
+  "defaultChartView": null,
+  "defillamaId": "parent#hypurfi",
+  "description": "Collateralize borrowing positions and loop and lever up your yield",
+  "displayName": "HypurrFi",
+  "doublecounted": null,
+  "forkedFrom": null,
+  "gecko_id": null,
+  "github": [
+    "lastdotnet"
+  ],
+  "governanceID": null,
+  "hallmarks": null,
+  "id": "parent#hypurfi",
+  "linkedProtocols": [
+    "HypurrFi",
+    "HypurrFi Pooled",
+    "HypurrFi Isolated"
+  ],
+  "logo": "https://icons.llama.fi/hypurrfi.png",
+  "methodology": null,
+  "methodologyURL": null,
+  "module": null,
+  "name": "HypurrFi",
+  "parentProtocol": null,
+  "previousNames": null,
+  "protocolType": "protocol",
+  "slug": "hypurrfi",
+  "symbol": "-",
+  "total24h": 2141,
+  "total30d": 145632,
+  "total48hto24h": 2142,
+  "total7d": 16169,
+  "totalAllTime": 660156,
+  "totalDataChart": [
+    [
+      1740096000,
+      0
+    ],
+    [
+      1740182400,
+      0
+    ],
+    [
+      1740268800,
+      0
+    ],
+    [
+      1740355200,
+      0
+    ],
+    [
+      1740441600,
+      0
+    ],
+    [
+      1740528000,
+      0
+    ],
+    [
+      1740614400,
+      0
+    ],
+    [
+      1740700800,
+      1
+    ],
+    [
+      1740787200,
+      2
+    ],
+    [
+      1740873600,
+      3
+    ],
+    [
+      1740960000,
+      1
+    ],
+    [
+      1741046400,
+      3
+    ],
+    [
+      1741132800,
+      3
+    ],
+    [
+      1741219200,
+      3
+    ],
+    [
+      1741305600,
+      3
+    ],
+    [
+      1741392000,
+      3
+    ],
+    [
+      1741478400,
+      2
+    ],
+    [
+      1741564800,
+      3
+    ],
+    [
+      1741651200,
+      7
+    ],
+    [
+      1741737600,
+      16
+    ],
+    [
+      1741824000,
+      10
+    ],
+    [
+      1741910400,
+      10
+    ],
+    [
+      1741996800,
+      11
+    ],
+    [
+      1742083200,
+      12
+    ],
+    [
+      1742169600,
+      13
+    ],
+    [
+      1742256000,
+      14
+    ],
+    [
+      1742342400,
+      20
+    ],
+    [
+      1742428800,
+      30
+    ],
+    [
+      1742515200,
+      23
+    ],
+    [
+      1742601600,
+      19
+    ],
+    [
+      1742688000,
+      19
+    ],
+    [
+      1742774400,
+      22
+    ],
+    [
+      1742860800,
+      36
+    ],
+    [
+      1742947200,
+      44
+    ],
+    [
+      1743033600,
+      73
+    ],
+    [
+      1743120000,
+      29
+    ],
+    [
+      1743206400,
+      23
+    ],
+    [
+      1743292800,
+      23
+    ],
+    [
+      1743379200,
+      26
+    ],
+    [
+      1743465600,
+      27
+    ],
+    [
+      1743552000,
+      178
+    ],
+    [
+      1743638400,
+      181
+    ],
+    [
+      1743724800,
+      186
+    ],
+    [
+      1743811200,
+      187
+    ],
+    [
+      1743897600,
+      174
+    ],
+    [
+      1743984000,
+      167
+    ],
+    [
+      1744070400,
+      176
+    ],
+    [
+      1744156800,
+      229
+    ],
+    [
+      1744243200,
+      276
+    ],
+    [
+      1744329600,
+      309
+    ],
+    [
+      1744416000,
+      328
+    ],
+    [
+      1744502400,
+      325
+    ],
+    [
+      1744588800,
+      366
+    ],
+    [
+      1744675200,
+      328
+    ],
+    [
+      1744761600,
+      351
+    ],
+    [
+      1744848000,
+      351
+    ],
+    [
+      1744934400,
+      370
+    ],
+    [
+      1745020800,
+      401
+    ],
+    [
+      1745107200,
+      402
+    ],
+    [
+      1745193600,
+      576
+    ],
+    [
+      1745280000,
+      488
+    ],
+    [
+      1745366400,
+      440
+    ],
+    [
+      1745452800,
+      458
+    ],
+    [
+      1745539200,
+      448
+    ],
+    [
+      1745625600,
+      460
+    ],
+    [
+      1745712000,
+      495
+    ],
+    [
+      1745798400,
+      502
+    ],
+    [
+      1745884800,
+      488
+    ],
+    [
+      1745971200,
+      525
+    ],
+    [
+      1746057600,
+      532
+    ],
+    [
+      1746144000,
+      625
+    ],
+    [
+      1746230400,
+      556
+    ],
+    [
+      1746316800,
+      545
+    ],
+    [
+      1746403200,
+      630
+    ],
+    [
+      1746489600,
+      643
+    ],
+    [
+      1746576000,
+      615
+    ],
+    [
+      1746662400,
+      722
+    ],
+    [
+      1746748800,
+      823
+    ],
+    [
+      1746835200,
+      1189
+    ],
+    [
+      1746921600,
+      1855
+    ],
+    [
+      1747008000,
+      3232
+    ],
+    [
+      1747094400,
+      1711
+    ],
+    [
+      1747180800,
+      1503
+    ],
+    [
+      1747267200,
+      1495
+    ],
+    [
+      1747353600,
+      1632
+    ],
+    [
+      1747440000,
+      1656
+    ],
+    [
+      1747526400,
+      1697
+    ],
+    [
+      1747612800,
+      1877
+    ],
+    [
+      1747699200,
+      1484
+    ],
+    [
+      1747785600,
+      1561
+    ],
+    [
+      1747872000,
+      1699
+    ],
+    [
+      1747958400,
+      1795
+    ],
+    [
+      1748044800,
+      1656
+    ],
+    [
+      1748131200,
+      2121
+    ],
+    [
+      1748217600,
+      1942
+    ],
+    [
+      1748304000,
+      1640
+    ],
+    [
+      1748390400,
+      1892
+    ],
+    [
+      1748476800,
+      2270
+    ],
+    [
+      1748563200,
+      1861
+    ],
+    [
+      1748649600,
+      1973
+    ],
+    [
+      1748736000,
+      2214
+    ],
+    [
+      1748822400,
+      2059
+    ],
+    [
+      1748908800,
+      1933
+    ],
+    [
+      1748995200,
+      1937
+    ],
+    [
+      1749081600,
+      2047
+    ],
+    [
+      1749168000,
+      2229
+    ],
+    [
+      1749254400,
+      1883
+    ],
+    [
+      1749340800,
+      1755
+    ],
+    [
+      1749427200,
+      2099
+    ],
+    [
+      1749513600,
+      3017
+    ],
+    [
+      1749600000,
+      2146
+    ],
+    [
+      1749686400,
+      2396
+    ],
+    [
+      1749772800,
+      2591
+    ],
+    [
+      1749859200,
+      2563
+    ],
+    [
+      1749945600,
+      2323
+    ],
+    [
+      1750032000,
+      2777
+    ],
+    [
+      1750118400,
+      2483
+    ],
+    [
+      1750204800,
+      2268
+    ],
+    [
+      1750291200,
+      1984
+    ],
+    [
+      1750377600,
+      2261
+    ],
+    [
+      1750464000,
+      3199
+    ],
+    [
+      1750550400,
+      3041
+    ],
+    [
+      1750636800,
+      2254
+    ],
+    [
+      1750723200,
+      2240
+    ],
+    [
+      1750809600,
+      2209
+    ],
+    [
+      1750896000,
+      1983
+    ],
+    [
+      1750982400,
+      2298
+    ],
+    [
+      1751068800,
+      2217
+    ],
+    [
+      1751155200,
+      2057
+    ],
+    [
+      1751241600,
+      2168
+    ],
+    [
+      1751328000,
+      2141
+    ],
+    [
+      1751414400,
+      2211
+    ],
+    [
+      1751500800,
+      2100
+    ],
+    [
+      1751587200,
+      1977
+    ],
+    [
+      1751673600,
+      1965
+    ],
+    [
+      1751760000,
+      2028
+    ],
+    [
+      1751846400,
+      1902
+    ],
+    [
+      1751932800,
+      8427
+    ],
+    [
+      1752019200,
+      2657
+    ],
+    [
+      1752105600,
+      2606
+    ],
+    [
+      1752192000,
+      2635
+    ],
+    [
+      1752278400,
+      3377
+    ],
+    [
+      1752364800,
+      4276
+    ],
+    [
+      1752451200,
+      4299
+    ],
+    [
+      1752537600,
+      5151
+    ],
+    [
+      1752624000,
+      6141
+    ],
+    [
+      1752710400,
+      4452
+    ],
+    [
+      1752796800,
+      3996
+    ],
+    [
+      1752883200,
+      4244
+    ],
+    [
+      1752969600,
+      4358
+    ],
+    [
+      1753056000,
+      4737
+    ],
+    [
+      1753142400,
+      5110
+    ],
+    [
+      1753228800,
+      5425
+    ],
+    [
+      1753315200,
+      4093
+    ],
+    [
+      1753401600,
+      3497
+    ],
+    [
+      1753488000,
+      4780
+    ],
+    [
+      1753574400,
+      3915
+    ],
+    [
+      1753660800,
+      5118
+    ],
+    [
+      1753747200,
+      4953
+    ],
+    [
+      1753833600,
+      6110
+    ],
+    [
+      1753920000,
+      7670
+    ],
+    [
+      1754006400,
+      6110
+    ],
+    [
+      1754092800,
+      5162
+    ],
+    [
+      1754179200,
+      4449
+    ],
+    [
+      1754265600,
+      3331
+    ],
+    [
+      1754352000,
+      4030
+    ],
+    [
+      1754438400,
+      4672
+    ],
+    [
+      1754524800,
+      5135
+    ],
+    [
+      1754611200,
+      5078
+    ],
+    [
+      1754697600,
+      4832
+    ],
+    [
+      1754784000,
+      5251
+    ],
+    [
+      1754870400,
+      6511
+    ],
+    [
+      1754956800,
+      5440
+    ],
+    [
+      1755043200,
+      4324
+    ],
+    [
+      1755129600,
+      5142
+    ],
+    [
+      1755216000,
+      4623
+    ],
+    [
+      1755302400,
+      4926
+    ],
+    [
+      1755388800,
+      4310
+    ],
+    [
+      1755475200,
+      4597
+    ],
+    [
+      1755561600,
+      4598
+    ],
+    [
+      1755648000,
+      4733
+    ],
+    [
+      1755734400,
+      4588
+    ],
+    [
+      1755820800,
+      5291
+    ],
+    [
+      1755907200,
+      5248
+    ],
+    [
+      1755993600,
+      4960
+    ],
+    [
+      1756080000,
+      5373
+    ],
+    [
+      1756166400,
+      6104
+    ],
+    [
+      1756252800,
+      5954
+    ],
+    [
+      1756339200,
+      5616
+    ],
+    [
+      1756425600,
+      6535
+    ],
+    [
+      1756512000,
+      6208
+    ],
+    [
+      1756598400,
+      6490
+    ],
+    [
+      1756684800,
+      6540
+    ],
+    [
+      1756771200,
+      6168
+    ],
+    [
+      1756857600,
+      5947
+    ],
+    [
+      1756944000,
+      6177
+    ],
+    [
+      1757030400,
+      7051
+    ],
+    [
+      1757116800,
+      6805
+    ],
+    [
+      1757203200,
+      6297
+    ],
+    [
+      1757289600,
+      6876
+    ],
+    [
+      1757376000,
+      7695
+    ],
+    [
+      1757462400,
+      6975
+    ],
+    [
+      1757548800,
+      6474
+    ],
+    [
+      1757635200,
+      7971
+    ],
+    [
+      1757721600,
+      6825
+    ],
+    [
+      1757808000,
+      6181
+    ],
+    [
+      1757894400,
+      7667
+    ],
+    [
+      1757980800,
+      7640
+    ],
+    [
+      1758067200,
+      6552
+    ],
+    [
+      1758153600,
+      6380
+    ],
+    [
+      1758240000,
+      6326
+    ],
+    [
+      1758326400,
+      5828
+    ],
+    [
+      1758412800,
+      5764
+    ],
+    [
+      1758499200,
+      6508
+    ],
+    [
+      1758585600,
+      6947
+    ],
+    [
+      1758672000,
+      8778
+    ],
+    [
+      1758758400,
+      8228
+    ],
+    [
+      1758844800,
+      5989
+    ],
+    [
+      1758931200,
+      5203
+    ],
+    [
+      1759017600,
+      4312
+    ],
+    [
+      1759104000,
+      5006
+    ],
+    [
+      1759190400,
+      4166
+    ],
+    [
+      1759276800,
+      5065
+    ],
+    [
+      1759363200,
+      4689
+    ],
+    [
+      1759449600,
+      4828
+    ],
+    [
+      1759536000,
+      4440
+    ],
+    [
+      1759622400,
+      4223
+    ],
+    [
+      1759708800,
+      4345
+    ],
+    [
+      1759795200,
+      4157
+    ],
+    [
+      1759881600,
+      4089
+    ],
+    [
+      1759968000,
+      432
+    ],
+    [
+      1760054400,
+      3390
+    ],
+    [
+      1760140800,
+      3708
+    ],
+    [
+      1760227200,
+      2240
+    ],
+    [
+      1760313600,
+      2116
+    ],
+    [
+      1760400000,
+      2142
+    ],
+    [
+      1760486400,
+      2141
+    ],
+    [
+      1760572800,
+      2141
+    ]
+  ],
+  "totalDataChartBreakdown": [
+    [
+      1740096000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 0
+        }
+      }
+    ],
+    [
+      1740182400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 0
+        }
+      }
+    ],
+    [
+      1740268800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 0
+        }
+      }
+    ],
+    [
+      1740355200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 0
+        }
+      }
+    ],
+    [
+      1740441600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 0
+        }
+      }
+    ],
+    [
+      1740528000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 0
+        }
+      }
+    ],
+    [
+      1740614400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 0
+        }
+      }
+    ],
+    [
+      1740700800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 1
+        }
+      }
+    ],
+    [
+      1740787200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 2
+        }
+      }
+    ],
+    [
+      1740873600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 3
+        }
+      }
+    ],
+    [
+      1740960000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 1
+        }
+      }
+    ],
+    [
+      1741046400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 3
+        }
+      }
+    ],
+    [
+      1741132800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 3
+        }
+      }
+    ],
+    [
+      1741219200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 3
+        }
+      }
+    ],
+    [
+      1741305600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 3
+        }
+      }
+    ],
+    [
+      1741392000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 3
+        }
+      }
+    ],
+    [
+      1741478400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 2
+        }
+      }
+    ],
+    [
+      1741564800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 3
+        }
+      }
+    ],
+    [
+      1741651200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 7
+        }
+      }
+    ],
+    [
+      1741737600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 16
+        }
+      }
+    ],
+    [
+      1741824000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 10
+        }
+      }
+    ],
+    [
+      1741910400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 10
+        }
+      }
+    ],
+    [
+      1741996800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 11
+        }
+      }
+    ],
+    [
+      1742083200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 12
+        }
+      }
+    ],
+    [
+      1742169600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 13
+        }
+      }
+    ],
+    [
+      1742256000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 14
+        }
+      }
+    ],
+    [
+      1742342400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 20
+        }
+      }
+    ],
+    [
+      1742428800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 30
+        }
+      }
+    ],
+    [
+      1742515200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 23
+        }
+      }
+    ],
+    [
+      1742601600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 19
+        }
+      }
+    ],
+    [
+      1742688000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 19
+        }
+      }
+    ],
+    [
+      1742774400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 22
+        }
+      }
+    ],
+    [
+      1742860800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 36
+        }
+      }
+    ],
+    [
+      1742947200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 44
+        }
+      }
+    ],
+    [
+      1743033600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 73
+        }
+      }
+    ],
+    [
+      1743120000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 29
+        }
+      }
+    ],
+    [
+      1743206400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 23
+        }
+      }
+    ],
+    [
+      1743292800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 23
+        }
+      }
+    ],
+    [
+      1743379200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 26
+        }
+      }
+    ],
+    [
+      1743465600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 27
+        }
+      }
+    ],
+    [
+      1743552000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 178
+        }
+      }
+    ],
+    [
+      1743638400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 181
+        }
+      }
+    ],
+    [
+      1743724800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 186
+        }
+      }
+    ],
+    [
+      1743811200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 187
+        }
+      }
+    ],
+    [
+      1743897600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 174
+        }
+      }
+    ],
+    [
+      1743984000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 167
+        }
+      }
+    ],
+    [
+      1744070400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 176
+        }
+      }
+    ],
+    [
+      1744156800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 229
+        }
+      }
+    ],
+    [
+      1744243200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1,
+          "HypurrFi Pooled": 275
+        }
+      }
+    ],
+    [
+      1744329600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 309
+        }
+      }
+    ],
+    [
+      1744416000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 328
+        }
+      }
+    ],
+    [
+      1744502400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 325
+        }
+      }
+    ],
+    [
+      1744588800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 366
+        }
+      }
+    ],
+    [
+      1744675200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 328
+        }
+      }
+    ],
+    [
+      1744761600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1,
+          "HypurrFi Pooled": 350
+        }
+      }
+    ],
+    [
+      1744848000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 351
+        }
+      }
+    ],
+    [
+      1744934400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 370
+        }
+      }
+    ],
+    [
+      1745020800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 401
+        }
+      }
+    ],
+    [
+      1745107200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1,
+          "HypurrFi Pooled": 401
+        }
+      }
+    ],
+    [
+      1745193600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 576
+        }
+      }
+    ],
+    [
+      1745280000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 488
+        }
+      }
+    ],
+    [
+      1745366400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1,
+          "HypurrFi Pooled": 439
+        }
+      }
+    ],
+    [
+      1745452800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 2,
+          "HypurrFi Pooled": 456
+        }
+      }
+    ],
+    [
+      1745539200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 448
+        }
+      }
+    ],
+    [
+      1745625600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 460
+        }
+      }
+    ],
+    [
+      1745712000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 495
+        }
+      }
+    ],
+    [
+      1745798400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1,
+          "HypurrFi Pooled": 501
+        }
+      }
+    ],
+    [
+      1745884800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1,
+          "HypurrFi Pooled": 487
+        }
+      }
+    ],
+    [
+      1745971200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 525
+        }
+      }
+    ],
+    [
+      1746057600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 532
+        }
+      }
+    ],
+    [
+      1746144000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 625
+        }
+      }
+    ],
+    [
+      1746230400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 556
+        }
+      }
+    ],
+    [
+      1746316800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 2,
+          "HypurrFi Pooled": 543
+        }
+      }
+    ],
+    [
+      1746403200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 630
+        }
+      }
+    ],
+    [
+      1746489600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 643
+        }
+      }
+    ],
+    [
+      1746576000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 615
+        }
+      }
+    ],
+    [
+      1746662400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 722
+        }
+      }
+    ],
+    [
+      1746748800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1,
+          "HypurrFi Pooled": 822
+        }
+      }
+    ],
+    [
+      1746835200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 1189
+        }
+      }
+    ],
+    [
+      1746921600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1,
+          "HypurrFi Pooled": 1854
+        }
+      }
+    ],
+    [
+      1747008000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1507,
+          "HypurrFi Pooled": 1725
+        }
+      }
+    ],
+    [
+      1747094400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 1711
+        }
+      }
+    ],
+    [
+      1747180800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 2,
+          "HypurrFi Pooled": 1501
+        }
+      }
+    ],
+    [
+      1747267200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 1495
+        }
+      }
+    ],
+    [
+      1747353600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 1632
+        }
+      }
+    ],
+    [
+      1747440000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 5,
+          "HypurrFi Pooled": 1651
+        }
+      }
+    ],
+    [
+      1747526400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 1697
+        }
+      }
+    ],
+    [
+      1747612800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 1877
+        }
+      }
+    ],
+    [
+      1747699200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 23,
+          "HypurrFi Pooled": 1461
+        }
+      }
+    ],
+    [
+      1747785600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 1561
+        }
+      }
+    ],
+    [
+      1747872000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 1699
+        }
+      }
+    ],
+    [
+      1747958400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 1795
+        }
+      }
+    ],
+    [
+      1748044800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1,
+          "HypurrFi Pooled": 1655
+        }
+      }
+    ],
+    [
+      1748131200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 2121
+        }
+      }
+    ],
+    [
+      1748217600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 5,
+          "HypurrFi Pooled": 1937
+        }
+      }
+    ],
+    [
+      1748304000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 1640
+        }
+      }
+    ],
+    [
+      1748390400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1,
+          "HypurrFi Pooled": 1891
+        }
+      }
+    ],
+    [
+      1748476800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 2270
+        }
+      }
+    ],
+    [
+      1748563200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 2,
+          "HypurrFi Pooled": 1859
+        }
+      }
+    ],
+    [
+      1748649600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 11,
+          "HypurrFi Pooled": 1962
+        }
+      }
+    ],
+    [
+      1748736000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 175,
+          "HypurrFi Pooled": 2039
+        }
+      }
+    ],
+    [
+      1748822400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1,
+          "HypurrFi Pooled": 2058
+        }
+      }
+    ],
+    [
+      1748908800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 5,
+          "HypurrFi Pooled": 1928
+        }
+      }
+    ],
+    [
+      1748995200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 0,
+          "HypurrFi Pooled": 1937
+        }
+      }
+    ],
+    [
+      1749081600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 6,
+          "HypurrFi Pooled": 2041
+        }
+      }
+    ],
+    [
+      1749168000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 2,
+          "HypurrFi Pooled": 2227
+        }
+      }
+    ],
+    [
+      1749254400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 2,
+          "HypurrFi Pooled": 1881
+        }
+      }
+    ],
+    [
+      1749340800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 2,
+          "HypurrFi Pooled": 1753
+        }
+      }
+    ],
+    [
+      1749427200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 4,
+          "HypurrFi Pooled": 2095
+        }
+      }
+    ],
+    [
+      1749513600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 735,
+          "HypurrFi Pooled": 2282
+        }
+      }
+    ],
+    [
+      1749600000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 5,
+          "HypurrFi Pooled": 2141
+        }
+      }
+    ],
+    [
+      1749686400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 7,
+          "HypurrFi Pooled": 2389
+        }
+      }
+    ],
+    [
+      1749772800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 10,
+          "HypurrFi Pooled": 2581
+        }
+      }
+    ],
+    [
+      1749859200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1,
+          "HypurrFi Pooled": 2562
+        }
+      }
+    ],
+    [
+      1749945600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 3,
+          "HypurrFi Pooled": 2320
+        }
+      }
+    ],
+    [
+      1750032000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 66,
+          "HypurrFi Pooled": 2711
+        }
+      }
+    ],
+    [
+      1750118400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 17,
+          "HypurrFi Pooled": 2466
+        }
+      }
+    ],
+    [
+      1750204800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 44,
+          "HypurrFi Pooled": 2224
+        }
+      }
+    ],
+    [
+      1750291200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 66,
+          "HypurrFi Pooled": 1918
+        }
+      }
+    ],
+    [
+      1750377600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 25,
+          "HypurrFi Pooled": 2236
+        }
+      }
+    ],
+    [
+      1750464000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 926,
+          "HypurrFi Pooled": 2273
+        }
+      }
+    ],
+    [
+      1750550400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 780,
+          "HypurrFi Pooled": 2261
+        }
+      }
+    ],
+    [
+      1750636800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 20,
+          "HypurrFi Pooled": 2234
+        }
+      }
+    ],
+    [
+      1750723200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1,
+          "HypurrFi Pooled": 2239
+        }
+      }
+    ],
+    [
+      1750809600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 26,
+          "HypurrFi Pooled": 2183
+        }
+      }
+    ],
+    [
+      1750896000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 2,
+          "HypurrFi Pooled": 1981
+        }
+      }
+    ],
+    [
+      1750982400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 2,
+          "HypurrFi Pooled": 2296
+        }
+      }
+    ],
+    [
+      1751068800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 19,
+          "HypurrFi Pooled": 2198
+        }
+      }
+    ],
+    [
+      1751155200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 3,
+          "HypurrFi Pooled": 2054
+        }
+      }
+    ],
+    [
+      1751241600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 14,
+          "HypurrFi Pooled": 2154
+        }
+      }
+    ],
+    [
+      1751328000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 4,
+          "HypurrFi Pooled": 2137
+        }
+      }
+    ],
+    [
+      1751414400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 3,
+          "HypurrFi Pooled": 2208
+        }
+      }
+    ],
+    [
+      1751500800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 4,
+          "HypurrFi Pooled": 2096
+        }
+      }
+    ],
+    [
+      1751587200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1,
+          "HypurrFi Pooled": 1976
+        }
+      }
+    ],
+    [
+      1751673600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 42,
+          "HypurrFi Pooled": 1923
+        }
+      }
+    ],
+    [
+      1751760000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 17,
+          "HypurrFi Pooled": 2011
+        }
+      }
+    ],
+    [
+      1751846400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 15,
+          "HypurrFi Pooled": 1887
+        }
+      }
+    ],
+    [
+      1751932800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 6098,
+          "HypurrFi Pooled": 2329
+        }
+      }
+    ],
+    [
+      1752019200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1,
+          "HypurrFi Pooled": 2656
+        }
+      }
+    ],
+    [
+      1752105600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 6,
+          "HypurrFi Pooled": 2600
+        }
+      }
+    ],
+    [
+      1752192000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 28,
+          "HypurrFi Pooled": 2607
+        }
+      }
+    ],
+    [
+      1752278400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 6,
+          "HypurrFi Pooled": 3371
+        }
+      }
+    ],
+    [
+      1752364800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 31,
+          "HypurrFi Pooled": 4245
+        }
+      }
+    ],
+    [
+      1752451200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 5,
+          "HypurrFi Pooled": 4294
+        }
+      }
+    ],
+    [
+      1752537600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1251,
+          "HypurrFi Pooled": 3900
+        }
+      }
+    ],
+    [
+      1752624000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 158,
+          "HypurrFi Pooled": 5983
+        }
+      }
+    ],
+    [
+      1752710400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 16,
+          "HypurrFi Pooled": 4436
+        }
+      }
+    ],
+    [
+      1752796800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 78,
+          "HypurrFi Pooled": 3918
+        }
+      }
+    ],
+    [
+      1752883200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 10,
+          "HypurrFi Pooled": 4234
+        }
+      }
+    ],
+    [
+      1752969600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 114,
+          "HypurrFi Pooled": 4244
+        }
+      }
+    ],
+    [
+      1753056000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 69,
+          "HypurrFi Pooled": 4668
+        }
+      }
+    ],
+    [
+      1753142400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 21,
+          "HypurrFi Pooled": 5089
+        }
+      }
+    ],
+    [
+      1753228800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1116,
+          "HypurrFi Pooled": 4309
+        }
+      }
+    ],
+    [
+      1753315200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 10,
+          "HypurrFi Pooled": 4083
+        }
+      }
+    ],
+    [
+      1753401600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 57,
+          "HypurrFi Pooled": 3440
+        }
+      }
+    ],
+    [
+      1753488000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 106,
+          "HypurrFi Pooled": 4674
+        }
+      }
+    ],
+    [
+      1753574400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 88,
+          "HypurrFi Pooled": 3827
+        }
+      }
+    ],
+    [
+      1753660800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 271,
+          "HypurrFi Pooled": 4847
+        }
+      }
+    ],
+    [
+      1753747200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 219,
+          "HypurrFi Pooled": 4734
+        }
+      }
+    ],
+    [
+      1753833600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 46,
+          "HypurrFi Pooled": 6064
+        }
+      }
+    ],
+    [
+      1753920000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 147,
+          "HypurrFi Pooled": 7523
+        }
+      }
+    ],
+    [
+      1754006400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1439,
+          "HypurrFi Pooled": 4671
+        }
+      }
+    ],
+    [
+      1754092800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 120,
+          "HypurrFi Pooled": 5042
+        }
+      }
+    ],
+    [
+      1754179200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 25,
+          "HypurrFi Pooled": 4424
+        }
+      }
+    ],
+    [
+      1754265600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 96,
+          "HypurrFi Pooled": 3235
+        }
+      }
+    ],
+    [
+      1754352000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 31,
+          "HypurrFi Pooled": 3999
+        }
+      }
+    ],
+    [
+      1754438400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 41,
+          "HypurrFi Pooled": 4631
+        }
+      }
+    ],
+    [
+      1754524800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 7,
+          "HypurrFi Pooled": 5128
+        }
+      }
+    ],
+    [
+      1754611200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 10,
+          "HypurrFi Pooled": 5068
+        }
+      }
+    ],
+    [
+      1754697600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 23,
+          "HypurrFi Pooled": 4809
+        }
+      }
+    ],
+    [
+      1754784000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 33,
+          "HypurrFi Pooled": 5218
+        }
+      }
+    ],
+    [
+      1754870400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 15,
+          "HypurrFi Pooled": 6496
+        }
+      }
+    ],
+    [
+      1754956800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 5,
+          "HypurrFi Pooled": 5435
+        }
+      }
+    ],
+    [
+      1755043200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 10,
+          "HypurrFi Pooled": 4314
+        }
+      }
+    ],
+    [
+      1755129600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 99,
+          "HypurrFi Pooled": 5043
+        }
+      }
+    ],
+    [
+      1755216000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 2,
+          "HypurrFi Pooled": 4621
+        }
+      }
+    ],
+    [
+      1755302400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 41,
+          "HypurrFi Pooled": 4885
+        }
+      }
+    ],
+    [
+      1755388800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 6,
+          "HypurrFi Pooled": 4304
+        }
+      }
+    ],
+    [
+      1755475200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 150,
+          "HypurrFi Pooled": 4447
+        }
+      }
+    ],
+    [
+      1755561600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1,
+          "HypurrFi Pooled": 4597
+        }
+      }
+    ],
+    [
+      1755648000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 219,
+          "HypurrFi Pooled": 4514
+        }
+      }
+    ],
+    [
+      1755734400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 120,
+          "HypurrFi Pooled": 4468
+        }
+      }
+    ],
+    [
+      1755820800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 127,
+          "HypurrFi Pooled": 5164
+        }
+      }
+    ],
+    [
+      1755907200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 42,
+          "HypurrFi Pooled": 5206
+        }
+      }
+    ],
+    [
+      1755993600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 6,
+          "HypurrFi Pooled": 4954
+        }
+      }
+    ],
+    [
+      1756080000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 103,
+          "HypurrFi Pooled": 5270
+        }
+      }
+    ],
+    [
+      1756166400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 24,
+          "HypurrFi Pooled": 6080
+        }
+      }
+    ],
+    [
+      1756252800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 15,
+          "HypurrFi Pooled": 5939
+        }
+      }
+    ],
+    [
+      1756339200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 41,
+          "HypurrFi Pooled": 5575
+        }
+      }
+    ],
+    [
+      1756425600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 538,
+          "HypurrFi Pooled": 5997
+        }
+      }
+    ],
+    [
+      1756512000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 17,
+          "HypurrFi Pooled": 6191
+        }
+      }
+    ],
+    [
+      1756598400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 791,
+          "HypurrFi Pooled": 5699
+        }
+      }
+    ],
+    [
+      1756684800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 725,
+          "HypurrFi Pooled": 5815
+        }
+      }
+    ],
+    [
+      1756771200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 730,
+          "HypurrFi Pooled": 5438
+        }
+      }
+    ],
+    [
+      1756857600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 707,
+          "HypurrFi Pooled": 5240
+        }
+      }
+    ],
+    [
+      1756944000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 751,
+          "HypurrFi Pooled": 5426
+        }
+      }
+    ],
+    [
+      1757030400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 880,
+          "HypurrFi Pooled": 6171
+        }
+      }
+    ],
+    [
+      1757116800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1034,
+          "HypurrFi Pooled": 5771
+        }
+      }
+    ],
+    [
+      1757203200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 931,
+          "HypurrFi Pooled": 5366
+        }
+      }
+    ],
+    [
+      1757289600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 948,
+          "HypurrFi Pooled": 5928
+        }
+      }
+    ],
+    [
+      1757376000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 894,
+          "HypurrFi Pooled": 6801
+        }
+      }
+    ],
+    [
+      1757462400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 854,
+          "HypurrFi Pooled": 6121
+        }
+      }
+    ],
+    [
+      1757548800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 882,
+          "HypurrFi Pooled": 5592
+        }
+      }
+    ],
+    [
+      1757635200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 901,
+          "HypurrFi Pooled": 7070
+        }
+      }
+    ],
+    [
+      1757721600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1028,
+          "HypurrFi Pooled": 5797
+        }
+      }
+    ],
+    [
+      1757808000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 969,
+          "HypurrFi Pooled": 5212
+        }
+      }
+    ],
+    [
+      1757894400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1049,
+          "HypurrFi Pooled": 6618
+        }
+      }
+    ],
+    [
+      1757980800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 974,
+          "HypurrFi Pooled": 6666
+        }
+      }
+    ],
+    [
+      1758067200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 915,
+          "HypurrFi Pooled": 5637
+        }
+      }
+    ],
+    [
+      1758153600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 889,
+          "HypurrFi Pooled": 5491
+        }
+      }
+    ],
+    [
+      1758240000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 781,
+          "HypurrFi Pooled": 5545
+        }
+      }
+    ],
+    [
+      1758326400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 749,
+          "HypurrFi Pooled": 5079
+        }
+      }
+    ],
+    [
+      1758412800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 748,
+          "HypurrFi Pooled": 5016
+        }
+      }
+    ],
+    [
+      1758499200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 664,
+          "HypurrFi Pooled": 5844
+        }
+      }
+    ],
+    [
+      1758585600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 700,
+          "HypurrFi Pooled": 6247
+        }
+      }
+    ],
+    [
+      1758672000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 895,
+          "HypurrFi Pooled": 7883
+        }
+      }
+    ],
+    [
+      1758758400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 880,
+          "HypurrFi Pooled": 7348
+        }
+      }
+    ],
+    [
+      1758844800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 854,
+          "HypurrFi Pooled": 5135
+        }
+      }
+    ],
+    [
+      1758931200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 715,
+          "HypurrFi Pooled": 4488
+        }
+      }
+    ],
+    [
+      1759017600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 589,
+          "HypurrFi Pooled": 3723
+        }
+      }
+    ],
+    [
+      1759104000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 520,
+          "HypurrFi Pooled": 4486
+        }
+      }
+    ],
+    [
+      1759190400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 572,
+          "HypurrFi Pooled": 3594
+        }
+      }
+    ],
+    [
+      1759276800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 755,
+          "HypurrFi Pooled": 4310
+        }
+      }
+    ],
+    [
+      1759363200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 576,
+          "HypurrFi Pooled": 4113
+        }
+      }
+    ],
+    [
+      1759449600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 584,
+          "HypurrFi Pooled": 4244
+        }
+      }
+    ],
+    [
+      1759536000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 457,
+          "HypurrFi Pooled": 3983
+        }
+      }
+    ],
+    [
+      1759622400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 375,
+          "HypurrFi Pooled": 3848
+        }
+      }
+    ],
+    [
+      1759708800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 442,
+          "HypurrFi Pooled": 3903
+        }
+      }
+    ],
+    [
+      1759795200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 361,
+          "HypurrFi Pooled": 3796
+        }
+      }
+    ],
+    [
+      1759881600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 353,
+          "HypurrFi Pooled": 3736
+        }
+      }
+    ],
+    [
+      1759968000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 421,
+          "HypurrFi Pooled": 11
+        }
+      }
+    ],
+    [
+      1760054400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 492,
+          "HypurrFi Pooled": 2898
+        }
+      }
+    ],
+    [
+      1760140800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 524,
+          "HypurrFi Pooled": 3184
+        }
+      }
+    ],
+    [
+      1760227200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 302,
+          "HypurrFi Pooled": 1938
+        }
+      }
+    ],
+    [
+      1760313600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 321,
+          "HypurrFi Pooled": 1795
+        }
+      }
+    ],
+    [
+      1760400000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 266,
+          "HypurrFi Pooled": 1876
+        }
+      }
+    ],
+    [
+      1760486400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 292,
+          "HypurrFi Pooled": 1849
+        }
+      }
+    ],
+    [
+      1760572800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 295,
+          "HypurrFi Pooled": 1846
+        }
+      }
+    ]
+  ],
+  "treasury": null,
+  "twitter": "hypurrfi",
+  "url": "https://hypurr.fi"
+}

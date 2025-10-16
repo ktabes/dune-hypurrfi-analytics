@@ -1,4 +1,3 @@
-# .github/workflows/hypurrfi_tvl.yml
 name: HypurrFi TVL → CSV (daily)
 
 on:
@@ -13,12 +12,14 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      - name: Run ETL (stdlib only)
+      # --- TVL ETL (stdlib-only) ---
+      - name: Run TVL ETL
         run: python3 ./src/fetch_hypurrfi_tvl.py
 
-      - name: Commit changes (if any)
+      - name: Commit TVL CSV changes (if any)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -26,17 +27,16 @@ jobs:
           git diff --quiet && echo "No CSV changes" || git commit -m "Update TVL CSV"
           git push
 
-      # NEW: upload the CSV into a Dune table
-      - name: Upload CSV to Dune table
+      # --- Upload TVL CSV to Dune table ---
+      - name: Upload TVL CSV to Dune
         env:
           DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}   # add this secret in repo settings
           CSV_PATH: data/hypurrfi_tvl_hl1.csv
-          TABLE_NAME: hypurrfi_tvl_hl1                # change if you want a different table name
+          TABLE_NAME: hypurrfi_tvl_hl1
           DESCRIPTION: HypurrFi Hyperliquid L1 TVL (daily, from DeFiLlama)
         run: |
-          # Build JSON with CSV content safely
           python3 - << 'PY'
-          import json, os, sys
+          import json, os
           p = os.environ["CSV_PATH"]
           with open(p, "r", encoding="utf-8") as f:
             csv_data = f.read().strip()
@@ -46,11 +46,42 @@ jobs:
             "table_name": os.environ["TABLE_NAME"],
             "is_private": False
           }
-          j = json.dumps(payload)
-          open("payload.json","w",encoding="utf-8").write(j)
+          with open("payload.json","w",encoding="utf-8") as out:
+            out.write(json.dumps(payload))
           PY
           curl -sS -X POST \
             -H "Content-Type: application/json" \
             -H "X-Dune-Api-Key: $DUNE_API_KEY" \
             --data @payload.json \
+            https://api.dune.com/api/v1/table/upload/csv
+
+      # ====== Revenue ETL + upload (delete if you don't need it yet) ======
+      - name: Run Revenue ETL
+        run: python3 ./src/fetch_hypurrfi_revenue.py
+
+      - name: Upload Revenue CSV to Dune
+        env:
+          DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
+          CSV_PATH: data/hypurrfi_revenue_daily.csv
+          TABLE_NAME: hypurrfi_revenue_daily
+          DESCRIPTION: HypurrFi protocol revenue (USD, daily; from DeFiLlama)
+        run: |
+          python3 - << 'PY'
+          import json, os
+          p = os.environ["CSV_PATH"]
+          with open(p, "r", encoding="utf-8") as f:
+            csv_data = f.read().strip()
+          payload = {
+            "data": csv_data,
+            "description": os.environ.get("DESCRIPTION",""),
+            "table_name": os.environ["TABLE_NAME"],
+            "is_private": False
+          }
+          with open("payload_rev.json","w",encoding="utf-8") as out:
+            out.write(json.dumps(payload))
+          PY
+          curl -sS -X POST \
+            -H "Content-Type: application/json" \
+            -H "X-Dune-Api-Key: $DUNE_API_KEY" \
+            --data @payload_rev.json \
             https://api.dune.com/api/v1/table/upload/csv
