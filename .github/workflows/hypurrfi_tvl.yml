@@ -1,3 +1,4 @@
+# .github/workflows/hypurrfi_tvl.yml
 name: HypurrFi TVL → CSV (daily)
 
 on:
@@ -14,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Run ETL
+      - name: Run ETL (stdlib only)
         run: python3 ./src/fetch_hypurrfi_tvl.py
 
       - name: Commit changes (if any)
@@ -24,3 +25,32 @@ jobs:
           git add -A
           git diff --quiet && echo "No CSV changes" || git commit -m "Update TVL CSV"
           git push
+
+      # NEW: upload the CSV into a Dune table
+      - name: Upload CSV to Dune table
+        env:
+          DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}   # add this secret in repo settings
+          CSV_PATH: data/hypurrfi_tvl_hl1.csv
+          TABLE_NAME: hypurrfi_tvl_hl1                # change if you want a different table name
+          DESCRIPTION: HypurrFi Hyperliquid L1 TVL (daily, from DeFiLlama)
+        run: |
+          # Build JSON with CSV content safely
+          python3 - << 'PY'
+          import json, os, sys
+          p = os.environ["CSV_PATH"]
+          with open(p, "r", encoding="utf-8") as f:
+            csv_data = f.read().strip()
+          payload = {
+            "data": csv_data,
+            "description": os.environ.get("DESCRIPTION",""),
+            "table_name": os.environ["TABLE_NAME"],
+            "is_private": False
+          }
+          j = json.dumps(payload)
+          open("payload.json","w",encoding="utf-8").write(j)
+          PY
+          curl -sS -X POST \
+            -H "Content-Type: application/json" \
+            -H "X-Dune-Api-Key: $DUNE_API_KEY" \
+            --data @payload.json \
+            https://api.dune.com/api/v1/table/upload/csv
