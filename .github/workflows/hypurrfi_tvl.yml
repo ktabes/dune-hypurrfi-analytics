@@ -1,8 +1,8 @@
-name: HypurrFi TVL → CSV (daily)
+name: HypurrFi TVL → CSV (hourly)
 
 on:
   schedule:
-    - cron: "5 19 * * *"   # ~3:05 PM US/Eastern
+    - cron: "59 * * * *"   # every hour at :59 (UTC)
   workflow_dispatch:
 
 permissions:
@@ -15,6 +15,11 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
       # --- TVL ETL (stdlib-only) ---
       - name: Run TVL ETL
         run: python3 ./src/fetch_hypurrfi_tvl.py
@@ -22,9 +27,9 @@ jobs:
       - name: Commit TVL CSV changes (if any)
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --quiet && echo "No CSV changes" || git commit -m "Update TVL CSV"
+          git diff --quiet && echo "No CSV changes" || git commit -m "Update TVL CSV (hourly)"
           git push
 
       # --- Upload TVL CSV to Dune table ---
@@ -33,7 +38,7 @@ jobs:
           DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}   # add this secret in repo settings
           CSV_PATH: data/hypurrfi_tvl_hl1.csv
           TABLE_NAME: hypurrfi_tvl_hl1
-          DESCRIPTION: HypurrFi Hyperliquid L1 TVL (daily, from DeFiLlama)
+          DESCRIPTION: HypurrFi Hyperliquid L1 TVL (hourly, from DeFiLlama)
         run: |
           python3 - << 'PY'
           import json, os
@@ -55,7 +60,7 @@ jobs:
             --data @payload.json \
             https://api.dune.com/api/v1/table/upload/csv
 
-      # ====== Revenue ETL + upload (delete if you don't need it yet) ======
+      # ====== Revenue ETL + upload (optional; remove if not needed hourly) ======
       - name: Run Revenue ETL
         run: python3 ./src/fetch_hypurrfi_revenue.py
 
@@ -64,7 +69,7 @@ jobs:
           DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
           CSV_PATH: data/hypurrfi_revenue_daily.csv
           TABLE_NAME: hypurrfi_revenue_daily
-          DESCRIPTION: HypurrFi protocol revenue (USD, daily; from DeFiLlama)
+          DESCRIPTION: HypurrFi protocol revenue (USD; from DeFiLlama)
         run: |
           python3 - << 'PY'
           import json, os
