@@ -1,4 +1,5 @@
-name: HypurrFi TVL → CSV (hourly)
+# .github/workflows/hypurrfi-hourly.yml
+name: HypurrFi TVL & Revenue → CSV (hourly)
 
 on:
   schedule:
@@ -7,6 +8,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: hypurrfi-hourly
+  cancel-in-progress: false
 
 jobs:
   run:
@@ -20,30 +25,41 @@ jobs:
         with:
           python-version: "3.11"
 
-      # --- TVL ETL (stdlib-only) ---
+      # --- Run both ETLs ---
       - name: Run TVL ETL
         run: python3 ./src/fetch_hypurrfi_tvl.py
 
-      - name: Commit TVL CSV changes (if any)
+      - name: Run Revenue ETL
+        run: python3 ./src/fetch_hypurrfi_revenue.py
+
+      # --- Commit CSV changes (one commit for both datasets) ---
+      - name: Commit CSV changes (if any)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git diff --quiet && echo "No CSV changes" || git commit -m "Update TVL CSV (hourly)"
-          git push
+          git add data/*.csv data/*debug*.json || true
+          if git diff --cached --quiet; then
+            echo "No CSV changes"
+          else
+            git commit -m "chore(data): update TVL & Revenue CSVs (hourly)"
+            git push
+          fi
 
-      # --- Upload TVL CSV to Dune table ---
+      # --- Upload TVL CSV to Dune ---
       - name: Upload TVL CSV to Dune
+        if: always()   # still attempt upload even if no commit
         env:
-          DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}   # add this secret in repo settings
+          DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
           CSV_PATH: data/hypurrfi_tvl_hl1.csv
           TABLE_NAME: hypurrfi_tvl_hl1
           DESCRIPTION: HypurrFi Hyperliquid L1 TVL (hourly, from DeFiLlama)
         run: |
           python3 - << 'PY'
-          import json, os
-          p = os.environ["CSV_PATH"]
-          with open(p, "r", encoding="utf-8") as f:
+          import json, os, sys, pathlib
+          p = pathlib.Path(os.environ["CSV_PATH"])
+          if not p.exists():
+            print(f"Missing {p}", file=sys.stderr); sys.exit(1)
+          with p.open("r", encoding="utf-8") as f:
             csv_data = f.read().strip()
           payload = {
             "data": csv_data,
@@ -51,20 +67,18 @@ jobs:
             "table_name": os.environ["TABLE_NAME"],
             "is_private": False
           }
-          with open("payload.json","w",encoding="utf-8") as out:
+          with open("payload_tvl.json","w",encoding="utf-8") as out:
             out.write(json.dumps(payload))
           PY
-          curl -sS -X POST \
+          curl -fsS -X POST \
             -H "Content-Type: application/json" \
             -H "X-Dune-Api-Key: $DUNE_API_KEY" \
-            --data @payload.json \
+            --data @payload_tvl.json \
             https://api.dune.com/api/v1/table/upload/csv
 
-      # ====== Revenue ETL + upload (optional; remove if not needed hourly) ======
-      - name: Run Revenue ETL
-        run: python3 ./src/fetch_hypurrfi_revenue.py
-
+      # --- Upload Revenue CSV to Dune ---
       - name: Upload Revenue CSV to Dune
+        if: always()
         env:
           DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
           CSV_PATH: data/hypurrfi_revenue_daily.csv
@@ -72,9 +86,11 @@ jobs:
           DESCRIPTION: HypurrFi protocol revenue (USD; from DeFiLlama)
         run: |
           python3 - << 'PY'
-          import json, os
-          p = os.environ["CSV_PATH"]
-          with open(p, "r", encoding="utf-8") as f:
+          import json, os, sys, pathlib
+          p = pathlib.Path(os.environ["CSV_PATH"])
+          if not p.exists():
+            print(f"Missing {p}", file=sys.stderr); sys.exit(1)
+          with p.open("r", encoding="utf-8") as f:
             csv_data = f.read().strip()
           payload = {
             "data": csv_data,
@@ -85,7 +101,7 @@ jobs:
           with open("payload_rev.json","w",encoding="utf-8") as out:
             out.write(json.dumps(payload))
           PY
-          curl -sS -X POST \
+          curl -fsS -X POST \
             -H "Content-Type: application/json" \
             -H "X-Dune-Api-Key: $DUNE_API_KEY" \
             --data @payload_rev.json \
