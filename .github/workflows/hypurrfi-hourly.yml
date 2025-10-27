@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      # --- Run both ETLs (they’ll also append hourly CSVs) ---
+      # --- Run both ETLs (they also append hourly CSVs) ---
       - name: Run TVL ETL
         run: python3 ./src/fetch_hypurrfi_tvl.py
 
@@ -44,8 +44,8 @@ jobs:
             git push
           fi
 
-      # --- Upload TVL hourly ---
-      - name: Upload hypurrfi_tvl_hl1_hourly.csv
+      # --- Upload helper (reusable run step) ---
+      - name: Upload TVL hourly to Dune
         if: always()
         env:
           DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
@@ -54,25 +54,34 @@ jobs:
           DESCRIPTION: HypurrFi Hyperliquid L1 TVL (hourly, as observed)
         run: |
           python3 - << 'PY'
-          import json, os, sys, pathlib
+          import json, os, pathlib, sys
           p = pathlib.Path(os.environ["CSV_PATH"])
-          if not p.exists(): sys.exit(f"Missing {p}")
+          if not p.exists(): sys.exit(f"❌ Missing {p}")
+          content = p.read_text(encoding="utf-8").strip()
           payload = {
-              "data": p.read_text().strip(),
-              "description": os.environ.get("DESCRIPTION",""),
-              "table_name": os.environ["TABLE_NAME"],
-              "is_private": False,
+            "data": content,
+            "description": os.environ.get("DESCRIPTION",""),
+            "table_name": os.environ["TABLE_NAME"],
+            "is_private": False
           }
-          pathlib.Path("payload_tvl_hourly.json").write_text(json.dumps(payload))
+          pathlib.Path("payload.json").write_text(json.dumps(payload), encoding="utf-8")
           PY
-          curl -fsS -X POST \
+          # Post and capture response
+          curl -sS -X POST \
             -H "Content-Type: application/json" \
             -H "X-Dune-Api-Key: $DUNE_API_KEY" \
-            --data @payload_tvl_hourly.json \
-            https://api.dune.com/api/v1/table/upload/csv
+            --data @payload.json \
+            https://api.dune.com/api/v1/table/upload/csv \
+            | tee dune_response.json
+          python3 - << 'PY'
+          import json, sys, pathlib
+          r = json.loads(pathlib.Path("dune_response.json").read_text())
+          print("Dune response:", r)
+          if not r.get("success"):
+              sys.exit("❌ Dune upload failed")
+          PY
 
-      # --- Upload Revenue hourly ---
-      - name: Upload hypurrfi_revenue_hourly.csv
+      - name: Upload Revenue hourly to Dune
         if: always()
         env:
           DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
@@ -81,19 +90,28 @@ jobs:
           DESCRIPTION: HypurrFi protocol revenue (USD, hourly as observed)
         run: |
           python3 - << 'PY'
-          import json, os, sys, pathlib
+          import json, os, pathlib, sys
           p = pathlib.Path(os.environ["CSV_PATH"])
-          if not p.exists(): sys.exit(f"Missing {p}")
+          if not p.exists(): sys.exit(f"❌ Missing {p}")
+          content = p.read_text(encoding="utf-8").strip()
           payload = {
-              "data": p.read_text().strip(),
-              "description": os.environ.get("DESCRIPTION",""),
-              "table_name": os.environ["TABLE_NAME"],
-              "is_private": False,
+            "data": content,
+            "description": os.environ.get("DESCRIPTION",""),
+            "table_name": os.environ["TABLE_NAME"],
+            "is_private": False
           }
-          pathlib.Path("payload_rev_hourly.json").write_text(json.dumps(payload))
+          pathlib.Path("payload.json").write_text(json.dumps(payload), encoding="utf-8")
           PY
-          curl -fsS -X POST \
+          curl -sS -X POST \
             -H "Content-Type: application/json" \
             -H "X-Dune-Api-Key: $DUNE_API_KEY" \
-            --data @payload_rev_hourly.json \
-            https://api.dune.com/api/v1/table/upload/csv
+            --data @payload.json \
+            https://api.dune.com/api/v1/table/upload/csv \
+            | tee dune_response.json
+          python3 - << 'PY'
+          import json, sys, pathlib
+          r = json.loads(pathlib.Path("dune_response.json").read_text())
+          print("Dune response:", r)
+          if not r.get("success"):
+              sys.exit("❌ Dune upload failed")
+          PY
