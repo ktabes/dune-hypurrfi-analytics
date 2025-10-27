@@ -10,6 +10,7 @@ REPO_ROOT = Path(os.getenv("GITHUB_WORKSPACE", Path(__file__).resolve().parents[
 DATA_DIR = (REPO_ROOT / "data")
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 OUTFILE = DATA_DIR / "hypurrfi_tvl_hl1.csv"
+HOURLY = DATA_DIR / "hypurrfi_tvl_hl1_hourly.csv"  # NEW
 DEBUG_JSON = DATA_DIR / "hypurrfi_debug.json"
 
 SLUG = "hypurrfi"
@@ -18,7 +19,7 @@ URLS = [
     f"https://api.llama.fi/protocol/{SLUG}",
 ]
 
-def log(msg: str): print(f"[hypurrfi] {msg}")
+def log(msg: str): print(f"[tvl] {msg}")
 
 def fetch_json() -> Any:
     last_err = None
@@ -91,7 +92,7 @@ def load_existing() -> Dict[str, float]:
         log(f"Loaded {len(existing)} existing rows from {OUTFILE}")
     return existing
 
-def write_csv(data: Dict[str, float]) -> None:
+def write_daily_csv(data: Dict[str, float]) -> None:
     with OUTFILE.open("w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["date","tvl_usd"])
@@ -99,15 +100,45 @@ def write_csv(data: Dict[str, float]) -> None:
             w.writerow([dt, f"{data[dt]:.6f}"])
     log(f"✅ Wrote {OUTFILE} with {len(data)} rows")
 
+def append_hourly_sample(latest_date: str, latest_value: float) -> None:
+    """
+    Append an 'as observed' hourly TVL sample.
+    Columns: observed_at_utc, asof_date, tvl_usd
+    Skip if we've already written a row for this exact minute.
+    """
+    observed = datetime.now(timezone.utc).replace(second=0, microsecond=0)
+    row = [observed.isoformat(), latest_date, f"{latest_value:.6f}"]
+
+    if HOURLY.exists():
+        try:
+            *_, last = HOURLY.read_text().strip().splitlines()
+            if last and last.split(",")[0] == row[0]:
+                log("Hourly: already recorded this minute; skipping")
+                return
+        except Exception:
+            pass
+
+    new_file = not HOURLY.exists()
+    with HOURLY.open("a", newline="") as f:
+        w = csv.writer(f)
+        if new_file:
+            w.writerow(["observed_at_utc", "asof_date", "tvl_usd"])
+        w.writerow(row)
+    log(f"🕒 appended hourly sample to {HOURLY}")
+
 def main():
     j = fetch_json()
     rows = normalize_series(pick_series(j))
     existing = load_existing()
-    for dt, tvl in rows: existing[dt] = tvl
+    for dt, tvl in rows:
+        existing[dt] = tvl
     if not existing:
         OUTFILE.write_text("date,tvl_usd\n")
         sys.exit("⚠️  No data rows found. See data/hypurrfi_debug.json.")
-    write_csv(existing)
+    write_daily_csv(existing)
+    # latest as-of (by date)
+    latest_date = max(existing.keys())
+    append_hourly_sample(latest_date, existing[latest_date])
 
 if __name__ == "__main__":
     main()

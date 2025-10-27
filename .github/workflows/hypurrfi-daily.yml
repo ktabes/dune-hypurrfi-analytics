@@ -1,0 +1,99 @@
+name: HypurrFi TVL & Revenue → CSV (daily)
+
+on:
+  schedule:
+    - cron: "30 23 * * *"   # every day at 23:30 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hypurrfi-daily
+  cancel-in-progress: false
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # --- Run both ETLs ---
+      - name: Run TVL ETL
+        run: python3 ./src/fetch_hypurrfi_tvl.py
+
+      - name: Run Revenue ETL
+        run: python3 ./src/fetch_hypurrfi_revenue.py
+
+      # --- Commit only daily CSV changes ---
+      - name: Commit daily CSV changes (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/*daily.csv data/*debug*.json || true
+          if git diff --cached --quiet; then
+            echo "No daily CSV changes"
+          else
+            git commit -m "chore(data): update HypurrFi daily CSVs"
+            git push
+          fi
+
+      # --- Upload TVL daily ---
+      - name: Upload hypurrfi_tvl_hl1.csv
+        if: always()
+        env:
+          DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
+          CSV_PATH: data/hypurrfi_tvl_hl1.csv
+          TABLE_NAME: hypurrfi_tvl_hl1
+          DESCRIPTION: HypurrFi Hyperliquid L1 TVL (daily, from DeFiLlama)
+        run: |
+          python3 - << 'PY'
+          import json, os, sys, pathlib
+          p = pathlib.Path(os.environ["CSV_PATH"])
+          if not p.exists(): sys.exit(f"Missing {p}")
+          payload = {
+              "data": p.read_text().strip(),
+              "description": os.environ.get("DESCRIPTION",""),
+              "table_name": os.environ["TABLE_NAME"],
+              "is_private": False,
+          }
+          pathlib.Path("payload_tvl_daily.json").write_text(json.dumps(payload))
+          PY
+          curl -fsS -X POST \
+            -H "Content-Type: application/json" \
+            -H "X-Dune-Api-Key: $DUNE_API_KEY" \
+            --data @payload_tvl_daily.json \
+            https://api.dune.com/api/v1/table/upload/csv
+
+      # --- Upload Revenue daily ---
+      - name: Upload hypurrfi_revenue_daily.csv
+        if: always()
+        env:
+          DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
+          CSV_PATH: data/hypurrfi_revenue_daily.csv
+          TABLE_NAME: hypurrfi_revenue_daily
+          DESCRIPTION: HypurrFi protocol revenue (USD, daily from DeFiLlama)
+        run: |
+          python3 - << 'PY'
+          import json, os, sys, pathlib
+          p = pathlib.Path(os.environ["CSV_PATH"])
+          if not p.exists(): sys.exit(f"Missing {p}")
+          payload = {
+              "data": p.read_text().strip(),
+              "description": os.environ.get("DESCRIPTION",""),
+              "table_name": os.environ["TABLE_NAME"],
+              "is_private": False,
+          }
+          pathlib.Path("payload_rev_daily.json").write_text(json.dumps(payload))
+          PY
+          curl -fsS -X POST \
+            -H "Content-Type: application/json" \
+            -H "X-Dune-Api-Key: $DUNE_API_KEY" \
+            --data @payload_rev_daily.json \
+            https://api.dune.com/api/v1/table/upload/csv
