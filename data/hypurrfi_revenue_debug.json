@@ -2,11 +2,69 @@
   "address": null,
   "audit_links": null,
   "audits": null,
+  "breakdownMethodology": null,
   "category": null,
   "chains": [
     "Hyperliquid L1"
   ],
-  "change_1d": -0.05,
+  "change_1d": 0.55,
+  "childProtocols": [
+    {
+      "breakdownMethodology": {
+        "Fees": {
+          "Borrow Interest": "All interest paid by borrowers from all markets (excluding USDXL).",
+          "Borrow Interest USDXL": "All interest paid by borrowers from USDXL only.",
+          "Flashloan Fees": "Flashloan fees paid by flashloan borrowers and executors.",
+          "Liquidation Fees": "Fees from liquidation penalty and bonuses."
+        },
+        "ProtocolRevenue": {
+          "Borrow Interest": "Amount of interest distributed to lenders from all markets (excluding USDXL) are collected by HypurrFi treasury.",
+          "Borrow Interest USDXL": "All interest paid on USDXL market are collected by HypurrFi treasury.",
+          "Flashloan Fees": "A portion of fees paid by flashloan borrowers and executors are collected by HypurrFi treasury.",
+          "Liquidation Fees": "A portion of fees from liquidation penalty and bonuses are colected by HypurrFi treasury."
+        },
+        "Revenue": {
+          "Borrow Interest": "A portion of interest paid by borrowers from all markets (excluding USDXL).",
+          "Borrow Interest USDXL": "All 100% interest paid by USDXL borrowers.",
+          "Flashloan Fees": "A portion of fees paid by flashloan borrowers and executors.",
+          "Liquidation Fees": "A portion of fees from liquidation penalty and bonuses."
+        },
+        "SupplySideRevenue": {
+          "Borrow Interest": "Amount of interest distributed to lenders from all markets (excluding USDXL).",
+          "Borrow Interest USDXL": "No supply side revenue for lenders on USDXL market.",
+          "Flashloan Fees": "Flashloan fees paid by flashloan borrowers and executors are distributed to lenders.",
+          "Liquidation Fees": "Fees from liquidation penalty and bonuses are distributed to lenders."
+        }
+      },
+      "defaultChartView": null,
+      "defillamaId": "5838",
+      "displayName": "HypurrFi Pooled",
+      "methodology": {
+        "Fees": "Include borrow interest, flashloan fee, liquidation fee and penalty paid by borrowers.",
+        "ProtocolRevenue": "Amount of fees go to HypurrFi treasury.",
+        "Revenue": "Amount of fees go to HypurrFi treasury.",
+        "SupplySideRevenue": "Amount of fees distributed to suppliers.",
+        "UserFees": "Interest paid by borrowers"
+      },
+      "methodologyURL": "https://github.com/DefiLlama/dimension-adapters/blob/master/fees/hypurrfi",
+      "name": "HypurrFi Pooled"
+    },
+    {
+      "breakdownMethodology": null,
+      "defaultChartView": null,
+      "defillamaId": "6053",
+      "displayName": "HypurrFi Isolated",
+      "methodology": {
+        "Fees": "Includes Lenders interest, liquidation fee and 10% interest fee",
+        "ProtocolRevenue": "All the interest earned by lenders",
+        "Revenue": "10% interest fee is considered as revenue",
+        "SupplySideRevenue": "All the interest earned by lenders",
+        "UserFees": "Interest paid by borrowers"
+      },
+      "methodologyURL": "https://github.com/DefiLlama/dimension-adapters/blob/master/fees/hypurrfi-isolated",
+      "name": "HypurrFi Isolated"
+    }
+  ],
   "cmcId": null,
   "defaultChartView": null,
   "defillamaId": "parent#hypurfi",
@@ -20,6 +78,7 @@
   ],
   "governanceID": null,
   "hallmarks": null,
+  "hasLabelBreakdown": true,
   "id": "parent#hypurfi",
   "linkedProtocols": [
     "HypurrFi",
@@ -36,11 +95,11 @@
   "protocolType": "protocol",
   "slug": "hypurrfi",
   "symbol": "-",
-  "total24h": 2141,
-  "total30d": 145632,
-  "total48hto24h": 2142,
-  "total7d": 16169,
-  "totalAllTime": 660156,
+  "total24h": 1830,
+  "total30d": 90358,
+  "total48hto24h": 1820,
+  "total7d": 13224,
+  "totalAllTime": 679613,
   "totalDataChart": [
     [
       1740096000,
@@ -992,7 +1051,51 @@
     ],
     [
       1760572800,
-      2141
+      2126
+    ],
+    [
+      1760659200,
+      2083
+    ],
+    [
+      1760745600,
+      1977
+    ],
+    [
+      1760832000,
+      256
+    ],
+    [
+      1760918400,
+      1898
+    ],
+    [
+      1761004800,
+      1858
+    ],
+    [
+      1761091200,
+      1932
+    ],
+    [
+      1761177600,
+      1974
+    ],
+    [
+      1761264000,
+      1912
+    ],
+    [
+      1761350400,
+      1820
+    ],
+    [
+      1761436800,
+      1830
+    ],
+    [
+      1761523200,
+      1932
     ]
   ],
   "totalDataChartBreakdown": [
@@ -3086,8 +3189,107 @@
       1760572800,
       {
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 295,
-          "HypurrFi Pooled": 1846
+          "HypurrFi Isolated": 309,
+          "HypurrFi Pooled": 1817
+        }
+      }
+    ],
+    [
+      1760659200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 284,
+          "HypurrFi Pooled": 1799
+        }
+      }
+    ],
+    [
+      1760745600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 270,
+          "HypurrFi Pooled": 1707
+        }
+      }
+    ],
+    [
+      1760832000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 253,
+          "HypurrFi Pooled": 3
+        }
+      }
+    ],
+    [
+      1760918400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 242,
+          "HypurrFi Pooled": 1656
+        }
+      }
+    ],
+    [
+      1761004800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 186,
+          "HypurrFi Pooled": 1672
+        }
+      }
+    ],
+    [
+      1761091200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 190,
+          "HypurrFi Pooled": 1742
+        }
+      }
+    ],
+    [
+      1761177600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 181,
+          "HypurrFi Pooled": 1793
+        }
+      }
+    ],
+    [
+      1761264000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 187,
+          "HypurrFi Pooled": 1725
+        }
+      }
+    ],
+    [
+      1761350400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 189,
+          "HypurrFi Pooled": 1631
+        }
+      }
+    ],
+    [
+      1761436800,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 191,
+          "HypurrFi Pooled": 1639
+        }
+      }
+    ],
+    [
+      1761523200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 166,
+          "HypurrFi Pooled": 1766
         }
       }
     ]
