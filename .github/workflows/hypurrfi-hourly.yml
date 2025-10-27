@@ -44,14 +44,14 @@ jobs:
             git push
           fi
 
-      # --- Upload helper (reusable run step) ---
+      # --- Upload helper: TVL hourly ---
       - name: Upload TVL hourly to Dune
         if: always()
         env:
           DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
-          CSV_PATH: data/hypurrfi_tvl_hl1_hourly.csv
-          TABLE_NAME: hypurrfi_tvl_hl1_hourly
-          DESCRIPTION: HypurrFi Hyperliquid L1 TVL (hourly, as observed)
+          CSV_PATH: data/hypurrfi_tvl_hourly.csv
+          TABLE_NAME: hypurrfi_tvl_hourly
+          DESCRIPTION: HypurrFi TVL (hourly, as observed; top-of-hour UTC)
         run: |
           python3 - << 'PY'
           import json, os, pathlib, sys
@@ -66,7 +66,6 @@ jobs:
           }
           pathlib.Path("payload.json").write_text(json.dumps(payload), encoding="utf-8")
           PY
-          # Post and capture response
           curl -sS -X POST \
             -H "Content-Type: application/json" \
             -H "X-Dune-Api-Key: $DUNE_API_KEY" \
@@ -81,13 +80,14 @@ jobs:
               sys.exit("❌ Dune upload failed")
           PY
 
+      # --- Upload helper: Revenue hourly ---
       - name: Upload Revenue hourly to Dune
         if: always()
         env:
           DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
           CSV_PATH: data/hypurrfi_revenue_hourly.csv
           TABLE_NAME: hypurrfi_revenue_hourly
-          DESCRIPTION: HypurrFi protocol revenue (USD, hourly as observed)
+          DESCRIPTION: HypurrFi protocol revenue (USD, hourly as observed; top-of-hour UTC)
         run: |
           python3 - << 'PY'
           import json, os, pathlib, sys

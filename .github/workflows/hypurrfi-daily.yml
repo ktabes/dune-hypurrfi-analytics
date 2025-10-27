@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/*daily.csv data/hypurrfi_tvl_hl1.csv data/*debug*.json || true
+          git add data/hypurrfi_tvl.csv data/hypurrfi_revenue.csv data/*debug*.json || true
           if git diff --cached --quiet; then
             echo "No daily CSV changes"
           else
@@ -44,13 +44,14 @@ jobs:
             git push
           fi
 
+      # --- Upload helper: TVL daily ---
       - name: Upload TVL daily to Dune
         if: always()
         env:
           DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
-          CSV_PATH: data/hypurrfi_tvl_hl1.csv
-          TABLE_NAME: hypurrfi_tvl_hl1
-          DESCRIPTION: HypurrFi Hyperliquid L1 TVL (daily, from DeFiLlama)
+          CSV_PATH: data/hypurrfi_tvl.csv
+          TABLE_NAME: hypurrfi_tvl
+          DESCRIPTION: HypurrFi TVL (daily, from DeFiLlama)
         run: |
           python3 - << 'PY'
           import json, os, pathlib, sys
@@ -79,12 +80,13 @@ jobs:
               sys.exit("❌ Dune upload failed")
           PY
 
+      # --- Upload helper: Revenue daily ---
       - name: Upload Revenue daily to Dune
         if: always()
         env:
           DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
-          CSV_PATH: data/hypurrfi_revenue_daily.csv
-          TABLE_NAME: hypurrfi_revenue_daily
+          CSV_PATH: data/hypurrfi_revenue.csv
+          TABLE_NAME: hypurrfi_revenue
           DESCRIPTION: HypurrFi protocol revenue (USD, daily from DeFiLlama)
         run: |
           python3 - << 'PY'
