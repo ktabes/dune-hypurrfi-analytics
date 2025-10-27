@@ -99,7 +99,7 @@
   "total30d": 90358,
   "total48hto24h": 1820,
   "total7d": 13224,
-  "totalAllTime": 679640,
+  "totalAllTime": 679666,
   "totalDataChart": [
     [
       1740096000,
@@ -1095,7 +1095,7 @@
     ],
     [
       1761523200,
-      1959
+      1985
     ]
   ],
   "totalDataChartBreakdown": [
@@ -3288,8 +3288,8 @@
       1761523200,
       {
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 166,
-          "HypurrFi Pooled": 1793
+          "HypurrFi Isolated": 160,
+          "HypurrFi Pooled": 1825
         }
       }
     ]
