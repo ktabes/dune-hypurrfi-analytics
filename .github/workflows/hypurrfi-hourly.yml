@@ -24,14 +24,14 @@ jobs:
         with:
           python-version: "3.11"
 
-      # --- Run both ETLs (they also append hourly CSVs) ---
+      # --- Run both ETLs (these write daily CSVs and append hourly CSVs) ---
       - name: Run TVL ETL
         run: python3 ./src/fetch_hypurrfi_tvl.py
 
       - name: Run Revenue ETL
         run: python3 ./src/fetch_hypurrfi_revenue.py
 
-      # --- Commit only hourly CSV changes ---
+      # --- Commit only hourly CSV changes (keeps git noise low) ---
       - name: Commit hourly CSV changes (if any)
         run: |
           git config user.name "github-actions[bot]"
@@ -43,6 +43,10 @@ jobs:
             git commit -m "chore(data): update HypurrFi hourly CSVs"
             git push
           fi
+
+      # =========================
+      # Dune uploads (hourly)
+      # =========================
 
       # --- Upload helper: TVL hourly ---
       - name: Upload TVL hourly to Dune
@@ -74,9 +78,9 @@ jobs:
             | tee dune_response.json
           python3 - << 'PY'
           import json, sys, pathlib
-          r = json.loads(pathlib.Path("dune_response.json").read_text())
+          r = json.loads(pathlib.Path("dune_response.json").read_text() or "{}")
           print("Dune response:", r)
-          if not r.get("success"):
+          if not r.get("success", False):
               sys.exit("❌ Dune upload failed")
           PY
 
@@ -86,7 +90,7 @@ jobs:
         env:
           DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
           CSV_PATH: data/hypurrfi_revenue_hourly.csv
-          TABLE_NAME: hypurrfi_revenue_hourly
+          TABLE_NAME: hypurrfi_daily_revenue_hl1_hourly
           DESCRIPTION: HypurrFi protocol revenue (USD, hourly as observed; top-of-hour UTC)
         run: |
           python3 - << 'PY'
@@ -110,8 +114,84 @@ jobs:
             | tee dune_response.json
           python3 - << 'PY'
           import json, sys, pathlib
-          r = json.loads(pathlib.Path("dune_response.json").read_text())
+          r = json.loads(pathlib.Path("dune_response.json").read_text() or "{}")
           print("Dune response:", r)
-          if not r.get("success"):
-              sys.exit("❌ Dune upload failed")
+          if not r.get("success", False):
+            sys.exit("❌ Dune upload failed")
+          PY
+
+      # =========================
+      # Dune uploads (daily snapshots) — optional but handy
+      # =========================
+
+      # --- Upload helper: TVL daily (one row per date; includes today's partial) ---
+      - name: Upload TVL daily to Dune
+        if: always()
+        env:
+          DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
+          CSV_PATH: data/hypurrfi_tvl.csv
+          TABLE_NAME: hypurrfi_tvl_daily
+          DESCRIPTION: HypurrFi TVL (daily; includes today's partial)
+        run: |
+          python3 - << 'PY'
+          import json, os, pathlib, sys
+          p = pathlib.Path(os.environ["CSV_PATH"])
+          if not p.exists(): sys.exit(f"❌ Missing {p}")
+          content = p.read_text(encoding="utf-8").strip()
+          payload = {
+            "data": content,
+            "description": os.environ.get("DESCRIPTION",""),
+            "table_name": os.environ["TABLE_NAME"],
+            "is_private": False
+          }
+          pathlib.Path("payload.json").write_text(json.dumps(payload), encoding="utf-8")
+          PY
+          curl -sS -X POST \
+            -H "Content-Type: application/json" \
+            -H "X-Dune-Api-Key: $DUNE_API_KEY" \
+            --data @payload.json \
+            https://api.dune.com/api/v1/table/upload/csv \
+            | tee dune_response.json
+          python3 - << 'PY'
+          import json, sys, pathlib
+          r = json.loads(pathlib.Path("dune_response.json").read_text() or "{}")
+          print("Dune response:", r)
+          if not r.get("success", False):
+            sys.exit("❌ Dune upload failed")
+          PY
+
+      # --- Upload helper: Revenue daily (one row per date; includes today's partial) ---
+      - name: Upload Revenue daily to Dune
+        if: always()
+        env:
+          DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
+          CSV_PATH: data/hypurrfi_revenue.csv
+          TABLE_NAME: hypurrfi_daily_revenue_hl1
+          DESCRIPTION: HypurrFi protocol revenue (USD, daily; includes today's partial)
+        run: |
+          python3 - << 'PY'
+          import json, os, pathlib, sys
+          p = pathlib.Path(os.environ["CSV_PATH"])
+          if not p.exists(): sys.exit(f"❌ Missing {p}")
+          content = p.read_text(encoding="utf-8").strip()
+          payload = {
+            "data": content,
+            "description": os.environ.get("DESCRIPTION",""),
+            "table_name": os.environ["TABLE_NAME"],
+            "is_private": False
+          }
+          pathlib.Path("payload.json").write_text(json.dumps(payload), encoding="utf-8")
+          PY
+          curl -sS -X POST \
+            -H "Content-Type: application/json" \
+            -H "X-Dune-Api-Key: $DUNE_API_KEY" \
+            --data @payload.json \
+            https://api.dune.com/api/v1/table/upload/csv \
+            | tee dune_response.json
+          python3 - << 'PY'
+          import json, sys, pathlib
+          r = json.loads(pathlib.Path("dune_response.json").read_text() or "{}")
+          print("Dune response:", r)
+          if not r.get("success", False):
+            sys.exit("❌ Dune upload failed")
           PY

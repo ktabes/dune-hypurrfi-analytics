@@ -5,24 +5,37 @@ from urllib.error import URLError, HTTPError
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
+import io
 
+# ----------------- Repo paths & outputs -----------------
 REPO_ROOT = Path(os.getenv("GITHUB_WORKSPACE", Path(__file__).resolve().parents[1])).resolve()
 DATA_DIR = (REPO_ROOT / "data")
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-OUT_DAILY = DATA_DIR / "hypurrfi_revenue.csv"
+OUT_DAILY  = DATA_DIR / "hypurrfi_revenue.csv"
 OUT_HOURLY = DATA_DIR / "hypurrfi_revenue_hourly.csv"
 DEBUG_JSON = DATA_DIR / "hypurrfi_revenue_debug.json"
 
+# ----------------- Source endpoints -----------------
 SLUG = "hypurrfi"
+# Prefer dailyProtocolRevenue, fallback to dailyRevenue
 URLS = [
     f"https://api.llama.fi/summary/fees/{SLUG}?dataType=dailyProtocolRevenue",
     f"https://api.llama.fi/summary/fees/{SLUG}?dataType=dailyRevenue",
 ]
 HDRS = {"User-Agent": "ktabes-hypurrfi-etl/2.1 (+github.com/ktabes)", "Accept": "application/json"}
 
-def log(m: str): print(f"[revenue] {m}", flush=True)
+# ----------------- Optional Dune upload -----------------
+DUNE_API_KEY       = os.getenv("DUNE_API_KEY")
+DUNE_UPLOAD_URL    = "https://api.dune.com/api/v1/table/upload/csv"
+DUNE_TABLE_DAILY   = os.getenv("DUNE_TABLE_DAILY",  "hypurrfi_daily_revenue_hl1")
+DUNE_TABLE_HOURLY  = os.getenv("DUNE_TABLE_HOURLY", "hypurrfi_daily_revenue_hl1_hourly")
+DUNE_TABLE_PRIVATE = os.getenv("DUNE_TABLE_PRIVATE", "false").lower() == "true"
 
+def log(m: str): 
+    print(f"[revenue] {m}", flush=True)
+
+# ----------------- HTTP helpers -----------------
 def _get(url: str, timeout: int = 45) -> Any:
     req = Request(url, headers=HDRS, method="GET")
     with urlopen(req, timeout=timeout) as resp:
@@ -42,8 +55,44 @@ def fetch_first_json(urls: List[str]) -> Any:
             log(f"Error: {e}")
     raise SystemExit(f"❌ failed to fetch any revenue endpoint: {last}")
 
+# ----------------- Parsing & normalization -----------------
+def _prefer_hl1_from_breakdown(j: Dict[str, Any]) -> List[Tuple[str, float]]:
+    """
+    If totalDataChartBreakdown exists, try to pull exactly 'Hyperliquid L1'.
+    Each element is [timestamp, { chain: number | {product: number, ...}, ... }]
+    """
+    rows: List[Tuple[str, float]] = []
+    tdcbd = j.get("totalDataChartBreakdown")
+    if not isinstance(tdcbd, list):
+        # Sometimes nested under 'data'
+        data = j.get("data", {})
+        if isinstance(data, dict):
+            tdcbd = data.get("totalDataChartBreakdown")
+
+    if isinstance(tdcbd, list):
+        for item in tdcbd:
+            if not (isinstance(item, list) and len(item) >= 2):
+                continue
+            ts, payload = item[0], item[1]
+            if not isinstance(payload, dict):
+                continue
+            hl1 = payload.get("Hyperliquid L1")
+            if hl1 is None:
+                continue
+            # Number or per-product map
+            if isinstance(hl1, dict):
+                total = 0.0
+                for v in hl1.values():
+                    try: total += float(v or 0.0)
+                    except: pass
+            else:
+                total = float(hl1 or 0.0)
+            day = ts_to_date_str(int(ts))
+            rows.append((day, total))
+    return rows
+
 def pick_series(j: Any) -> List[Any]:
-    """Prefer totalDataChart; fallback to dailyDataChart; also check nested under 'data'."""
+    """Legacy series picker (kept for fallback): prefer totalDataChart; then dailyDataChart; also check nested under 'data'."""
     if isinstance(j, dict):
         for k in ("totalDataChart", "dailyDataChart"):
             arr = j.get(k)
@@ -86,6 +135,7 @@ def normalize_to_rows(arr: List[Any]) -> List[Tuple[str, float]]:
     for d, v in rows: dd[d] = v
     return sorted(dd.items(), key=lambda x: x[0])
 
+# ----------------- Write CSVs -----------------
 def write_daily_csv(rows: List[Tuple[str, float]]) -> None:
     if not rows:
         OUT_DAILY.write_text("date,daily_revenue_usd\n")
@@ -108,7 +158,6 @@ def read_existing_hour_slots() -> set[int]:
                 for rec in r:
                     ts_str = rec.get("timestamp_utc")
                     if not ts_str: continue
-                    # ISO with Z or offset supported
                     try:
                         dt = datetime.fromisoformat(ts_str.replace("Z", "+00:00"))
                     except ValueError:
@@ -139,27 +188,67 @@ def append_hourly_sample(hour_slot: datetime, latest_date: str, latest_value: fl
         ])
     log(f"🕒 appended {hour_slot.isoformat()}Z → {latest_value:.6f}")
 
+# ----------------- Dune upload (overwrite with full CSV content) -----------------
+def upload_csv_to_dune(path: Path, table_name: str, description: str) -> None:
+    if not DUNE_API_KEY:
+        log("Dune upload skipped (no DUNE_API_KEY).")
+        return
+    data = path.read_text(encoding="utf-8")
+    payload = {
+        "data": data,
+        "description": description,
+        "table_name": table_name,
+        "is_private": DUNE_TABLE_PRIVATE,
+    }
+    req = Request(DUNE_UPLOAD_URL, method="POST")
+    req.add_header("Content-Type", "application/json")
+    req.add_header("X-DUNE-API-KEY", DUNE_API_KEY)
+    body = json.dumps(payload).encode("utf-8")
+    try:
+        with urlopen(req, body, timeout=90) as resp:
+            raw = resp.read()
+            log(f"📤 Dune upload {table_name}: {resp.status}, {len(raw)} bytes")
+    except Exception as e:
+        log(f"❌ Dune upload error for {table_name}: {e}")
+        raise
+
+# ----------------- Main -----------------
 def main():
     now = datetime.now(timezone.utc)
     hour_slot = top_of_hour(now)
 
     j = fetch_first_json(URLS)
-    series = pick_series(j)
-    rows = normalize_to_rows(series)
+
+    # 1) Prefer HL1-only if breakdown exists; otherwise fallback to legacy arrays
+    hl1_rows = _prefer_hl1_from_breakdown(j)
+    if hl1_rows:
+        rows = sorted({d: v for d, v in hl1_rows}.items())
+        log(f"Using HL1 breakdown series with {len(rows)} rows")
+    else:
+        series = pick_series(j)
+        rows = normalize_to_rows(series)
+
+    # Write daily CSV (full history; includes today's partial)
     write_daily_csv(rows)
 
-    if not rows:
-        return
-    latest_date, latest_value = rows[-1]
+    # Hourly observation row (one per UTC hour)
+    if rows:
+        latest_date, latest_value = rows[-1]
+        existing = read_existing_hour_slots()
+        slot_ts = int(hour_slot.timestamp())
+        if slot_ts not in existing:
+            append_hourly_sample(hour_slot, latest_date, latest_value)
+        else:
+            log("Hourly: already recorded this hour; skipping")
 
-    # De-dup per hour
-    existing = read_existing_hour_slots()
-    slot_ts = int(hour_slot.timestamp())
-    if slot_ts in existing:
-        log("Hourly: already recorded this hour; skipping")
-        return
-
-    append_hourly_sample(hour_slot, latest_date, latest_value)
+    # Optional: upload both CSVs to Dune (overwrite with full history)
+    try:
+        upload_csv_to_dune(OUT_DAILY,  DUNE_TABLE_DAILY,  "HypurrFi daily revenue (USD) — HL1 breakdown preferred")
+        if OUT_HOURLY.exists():
+            upload_csv_to_dune(OUT_HOURLY, DUNE_TABLE_HOURLY, "HypurrFi daily revenue observed each UTC hour (USD)")
+    except Exception:
+        # Don't fail the workflow just because Dune upload had a transient error
+        log("Continuing after Dune upload error")
 
 if __name__ == "__main__":
     main()
