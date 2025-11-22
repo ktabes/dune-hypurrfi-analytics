@@ -7,7 +7,7 @@
   "chains": [
     "Hyperliquid L1"
   ],
-  "change_1d": 17.65,
+  "change_1d": 1291.17,
   "childProtocols": [
     {
       "breakdownMethodology": {
@@ -95,11 +95,11 @@
   "protocolType": "protocol",
   "slug": "hypurrfi",
   "symbol": "-",
-  "total24h": 1653,
-  "total30d": 54024,
-  "total48hto24h": 1405,
-  "total7d": 10272,
-  "totalAllTime": 745541,
+  "total24h": 22996,
+  "total30d": 75088,
+  "total48hto24h": 1653,
+  "total7d": 31512,
+  "totalAllTime": 749976,
   "totalDataChart": [
     [
       1740096000,
@@ -1195,7 +1195,11 @@
     ],
     [
       1763683200,
-      23304
+      22996
+    ],
+    [
+      1763769600,
+      4743
     ]
   ],
   "totalDataChartBreakdown": [
@@ -3613,8 +3617,17 @@
       1763683200,
       {
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 369,
-          "HypurrFi Pooled": 22935
+          "HypurrFi Isolated": 355,
+          "HypurrFi Pooled": 22641
+        }
+      }
+    ],
+    [
+      1763769600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 279,
+          "HypurrFi Pooled": 4464
         }
       }
     ]
