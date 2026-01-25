@@ -7,6 +7,7 @@
   "chains": [
     "Hyperliquid L1"
   ],
+  "change_1d": 562.16,
   "childProtocols": [
     {
       "breakdownMethodology": {
@@ -94,11 +95,11 @@
   "protocolType": "protocol",
   "slug": "hypurrfi",
   "symbol": "-",
-  "total24h": 0,
-  "total30d": 7818,
-  "total48hto24h": 366,
-  "total7d": 5748,
-  "totalAllTime": 518526,
+  "total24h": 490,
+  "total30d": 34357,
+  "total48hto24h": 74,
+  "total7d": 19494,
+  "totalAllTime": 877188,
   "totalDataChart": [
     [
       1740096000,
@@ -654,7 +655,7 @@
     ],
     [
       1752019200,
-      2653
+      2654
     ],
     [
       1752105600,
@@ -666,11 +667,11 @@
     ],
     [
       1752278400,
-      3391
+      3397
     ],
     [
       1752364800,
-      4230
+      4261
     ],
     [
       1752451200,
@@ -678,7 +679,7 @@
     ],
     [
       1752537600,
-      3915
+      5166
     ],
     [
       1752624000,
@@ -698,11 +699,11 @@
     ],
     [
       1752969600,
-      4308
+      4422
     ],
     [
       1753056000,
-      4656
+      4725
     ],
     [
       1753142400,
@@ -726,11 +727,11 @@
     ],
     [
       1753574400,
-      3900
+      3988
     ],
     [
       1753660800,
-      4558
+      4829
     ],
     [
       1753747200,
@@ -746,27 +747,27 @@
     ],
     [
       1754006400,
-      4671
+      6110
     ],
     [
       1754092800,
-      120
+      5162
     ],
     [
       1754179200,
-      4424
+      4449
     ],
     [
       1754265600,
-      96
+      3331
     ],
     [
       1754352000,
-      3999
+      4030
     ],
     [
       1754438400,
-      0
+      4672
     ],
     [
       1754524800,
@@ -778,19 +779,19 @@
     ],
     [
       1754697600,
-      0
+      4832
     ],
     [
       1754784000,
-      33
+      5251
     ],
     [
       1754870400,
-      0
+      6511
     ],
     [
       1754956800,
-      0
+      5440
     ],
     [
       1755043200,
@@ -798,15 +799,15 @@
     ],
     [
       1755129600,
-      0
+      5142
     ],
     [
       1755216000,
-      4621
+      4623
     ],
     [
       1755302400,
-      4885
+      4926
     ],
     [
       1755388800,
@@ -814,19 +815,19 @@
     ],
     [
       1755475200,
-      4447
-    ],
-    [
-      1755561600,
       4597
     ],
     [
+      1755561600,
+      4598
+    ],
+    [
       1755648000,
-      219
+      4733
     ],
     [
       1755734400,
-      0
+      4588
     ],
     [
       1755820800,
@@ -834,23 +835,23 @@
     ],
     [
       1755907200,
-      5206
+      5248
     ],
     [
       1755993600,
-      0
+      4960
     ],
     [
       1756080000,
-      0
+      5373
     ],
     [
       1756166400,
-      6080
+      6104
     ],
     [
       1756252800,
-      0
+      5954
     ],
     [
       1756339200,
@@ -858,19 +859,19 @@
     ],
     [
       1756425600,
-      5997
+      6535
     ],
     [
       1756512000,
-      0
+      6208
     ],
     [
       1756598400,
-      5699
+      6490
     ],
     [
       1756684800,
-      5815
+      6540
     ],
     [
       1756771200,
@@ -878,11 +879,11 @@
     ],
     [
       1756857600,
-      5240
+      5947
     ],
     [
       1756944000,
-      0
+      6177
     ],
     [
       1757030400,
@@ -894,31 +895,31 @@
     ],
     [
       1757203200,
-      5366
+      6297
     ],
     [
       1757289600,
-      5928
+      6876
     ],
     [
       1757376000,
-      6801
+      7695
     ],
     [
       1757462400,
-      0
+      6975
     ],
     [
       1757548800,
-      5592
+      6474
     ],
     [
       1757635200,
-      0
+      7971
     ],
     [
       1757721600,
-      1028
+      6825
     ],
     [
       1757808000,
@@ -926,7 +927,7 @@
     ],
     [
       1757894400,
-      0
+      7667
     ],
     [
       1757980800,
@@ -934,27 +935,27 @@
     ],
     [
       1758067200,
-      0
+      6552
     ],
     [
       1758153600,
-      889
+      6380
     ],
     [
       1758240000,
-      781
+      6326
     ],
     [
       1758326400,
-      749
+      5828
     ],
     [
       1758412800,
-      0
+      5764
     ],
     [
       1758499200,
-      0
+      6508
     ],
     [
       1758585600,
@@ -962,11 +963,11 @@
     ],
     [
       1758672000,
-      895
+      8778
     ],
     [
       1758758400,
-      7348
+      8228
     ],
     [
       1758844800,
@@ -974,19 +975,19 @@
     ],
     [
       1758931200,
-      4488
+      5203
     ],
     [
       1759017600,
-      3723
+      4312
     ],
     [
       1759104000,
-      0
+      5006
     ],
     [
       1759190400,
-      572
+      4166
     ],
     [
       1759276800,
@@ -994,23 +995,23 @@
     ],
     [
       1759363200,
-      0
+      4689
     ],
     [
       1759449600,
-      0
+      4828
     ],
     [
       1759536000,
-      0
+      4440
     ],
     [
       1759622400,
-      375
+      4223
     ],
     [
       1759708800,
-      442
+      4345
     ],
     [
       1759795200,
@@ -1022,23 +1023,23 @@
     ],
     [
       1759968000,
-      0
+      432
     ],
     [
       1760054400,
-      2898
+      3390
     ],
     [
       1760140800,
-      524
+      3708
     ],
     [
       1760227200,
-      0
+      2240
     ],
     [
       1760313600,
-      0
+      2116
     ],
     [
       1760400000,
@@ -1046,7 +1047,7 @@
     ],
     [
       1760486400,
-      292
+      2141
     ],
     [
       1760572800,
@@ -1054,11 +1055,11 @@
     ],
     [
       1760659200,
-      0
+      2083
     ],
     [
       1760745600,
-      0
+      1977
     ],
     [
       1760832000,
@@ -1066,7 +1067,7 @@
     ],
     [
       1760918400,
-      0
+      1898
     ],
     [
       1761004800,
@@ -1074,39 +1075,39 @@
     ],
     [
       1761091200,
-      190
+      1932
     ],
     [
       1761177600,
-      181
+      1974
     ],
     [
       1761264000,
-      0
+      1912
     ],
     [
       1761350400,
-      0
+      1820
     ],
     [
       1761436800,
-      191
+      1830
     ],
     [
       1761523200,
-      160
+      1898
     ],
     [
       1761609600,
-      172
+      1867
     ],
     [
       1761696000,
-      0
+      1992
     ],
     [
       1761782400,
-      0
+      2052
     ],
     [
       1761868800,
@@ -1122,7 +1123,7 @@
     ],
     [
       1762128000,
-      158
+      1997
     ],
     [
       1762214400,
@@ -1130,11 +1131,11 @@
     ],
     [
       1762300800,
-      291
+      2805
     ],
     [
       1762387200,
-      0
+      198
     ],
     [
       1762473600,
@@ -1142,11 +1143,11 @@
     ],
     [
       1762560000,
-      282
+      2240
     ],
     [
       1762646400,
-      272
+      2540
     ],
     [
       1762732800,
@@ -1154,11 +1155,11 @@
     ],
     [
       1762819200,
-      0
+      2275
     ],
     [
       1762905600,
-      210
+      1589
     ],
     [
       1762992000,
@@ -1166,35 +1167,35 @@
     ],
     [
       1763078400,
-      226
+      1756
     ],
     [
       1763164800,
-      0
+      1350
     ],
     [
       1763251200,
-      0
+      1555
     ],
     [
       1763337600,
-      0
+      1276
     ],
     [
       1763424000,
-      0
+      1277
     ],
     [
       1763510400,
-      0
+      1405
     ],
     [
       1763596800,
-      0
+      1653
     ],
     [
       1763683200,
-      22641
+      22996
     ],
     [
       1763769600,
@@ -1206,15 +1207,15 @@
     ],
     [
       1763942400,
-      0
+      1403
     ],
     [
       1764028800,
-      0
+      1595
     ],
     [
       1764115200,
-      0
+      1518
     ],
     [
       1764201600,
@@ -1222,23 +1223,23 @@
     ],
     [
       1764288000,
-      0
+      1278
     ],
     [
       1764374400,
-      0
+      1403
     ],
     [
       1764460800,
-      185
+      1417
     ],
     [
       1764547200,
-      0
+      3396
     ],
     [
       1764633600,
-      228
+      1714
     ],
     [
       1764720000,
@@ -1246,67 +1247,67 @@
     ],
     [
       1764806400,
-      0
+      1395
     ],
     [
       1764892800,
-      0
+      1568
     ],
     [
       1764979200,
-      0
+      965
     ],
     [
       1765065600,
-      0
+      16398
     ],
     [
       1765152000,
-      0
+      1100
     ],
     [
       1765238400,
-      0
+      9493
     ],
     [
       1765324800,
-      0
+      881
     ],
     [
       1765411200,
-      0
+      1044
     ],
     [
       1765497600,
-      0
+      990
     ],
     [
       1765584000,
-      0
+      789
     ],
     [
       1765670400,
-      0
+      778
     ],
     [
       1765756800,
-      0
+      809
     ],
     [
       1765843200,
-      0
+      2467
     ],
     [
       1765929600,
-      0
+      10870
     ],
     [
       1766016000,
-      116
+      14901
     ],
     [
       1766102400,
-      79
+      3853
     ],
     [
       1766188800,
@@ -1314,23 +1315,23 @@
     ],
     [
       1766275200,
-      0
+      1994
     ],
     [
       1766361600,
-      0
+      54
     ],
     [
       1766448000,
-      93
+      570
     ],
     [
       1766534400,
-      89
+      617
     ],
     [
       1766620800,
-      0
+      557
     ],
     [
       1766707200,
@@ -1338,27 +1339,27 @@
     ],
     [
       1766793600,
-      0
+      528
     ],
     [
       1766880000,
-      60
+      559
     ],
     [
       1766966400,
-      71
+      563
     ],
     [
       1767052800,
-      0
+      610
     ],
     [
       1767139200,
-      0
+      559
     ],
     [
       1767225600,
-      0
+      513
     ],
     [
       1767312000,
@@ -1366,47 +1367,47 @@
     ],
     [
       1767398400,
-      419
+      519
     ],
     [
       1767484800,
-      91
+      979
     ],
     [
       1767571200,
-      0
+      846
     ],
     [
       1767657600,
-      0
+      603
     ],
     [
       1767744000,
-      540
+      625
     ],
     [
       1767830400,
-      0
+      506
     ],
     [
       1767916800,
-      0
+      517
     ],
     [
       1768003200,
-      435
+      513
     ],
     [
       1768089600,
-      0
+      484
     ],
     [
       1768176000,
-      0
+      3477
     ],
     [
       1768262400,
-      100
+      563
     ],
     [
       1768348800,
@@ -1414,19 +1415,19 @@
     ],
     [
       1768435200,
-      107
+      541
     ],
     [
       1768521600,
-      0
+      564
     ],
     [
       1768608000,
-      0
+      547
     ],
     [
       1768694400,
-      0
+      99
     ],
     [
       1768780800,
@@ -1438,19 +1439,23 @@
     ],
     [
       1768953600,
-      0
+      13010
     ],
     [
       1769040000,
-      366
+      439
     ],
     [
       1769126400,
-      0
+      74
     ],
     [
       1769212800,
-      438
+      490
+    ],
+    [
+      1769299200,
+      456
     ]
   ],
   "totalDataChartBreakdown": [
@@ -2652,32 +2657,9 @@
     [
       1752019200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 1,
           "HypurrFi Pooled": 2653
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
@@ -2702,64 +2684,18 @@
     [
       1752278400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 6,
           "HypurrFi Pooled": 3391
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1752364800,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 31,
           "HypurrFi Pooled": 4230
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
@@ -2775,32 +2711,9 @@
     [
       1752537600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 1251,
           "HypurrFi Pooled": 3915
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
@@ -2843,64 +2756,18 @@
     [
       1752969600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 114,
           "HypurrFi Pooled": 4308
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1753056000,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 69,
           "HypurrFi Pooled": 4656
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
@@ -2952,64 +2819,18 @@
     [
       1753574400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 88,
           "HypurrFi Pooled": 3900
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1753660800,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 271,
           "HypurrFi Pooled": 4558
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
@@ -3043,197 +2864,54 @@
     [
       1754006400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 1439,
           "HypurrFi Pooled": 4671
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1754092800,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 120
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 120,
+          "HypurrFi Pooled": 5042
         }
       }
     ],
     [
       1754179200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 25,
           "HypurrFi Pooled": 4424
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1754265600,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 96
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 96,
+          "HypurrFi Pooled": 3235
         }
       }
     ],
     [
       1754352000,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 31,
           "HypurrFi Pooled": 3999
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1754438400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 41,
+          "HypurrFi Pooled": 4631
         }
       }
     ],
@@ -3258,143 +2936,36 @@
     [
       1754697600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 23,
+          "HypurrFi Pooled": 4809
         }
       }
     ],
     [
       1754784000,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 33
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 33,
+          "HypurrFi Pooled": 5218
         }
       }
     ],
     [
       1754870400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 15,
+          "HypurrFi Pooled": 6496
         }
       }
     ],
     [
       1754956800,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 5,
+          "HypurrFi Pooled": 5435
         }
       }
     ],
@@ -3410,101 +2981,27 @@
     [
       1755129600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 99,
+          "HypurrFi Pooled": 5043
         }
       }
     ],
     [
       1755216000,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 2,
           "HypurrFi Pooled": 4621
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1755302400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 41,
           "HypurrFi Pooled": 4885
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
@@ -3520,133 +3017,36 @@
     [
       1755475200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 150,
           "HypurrFi Pooled": 4447
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1755561600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 1,
           "HypurrFi Pooled": 4597
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1755648000,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 219
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 219,
+          "HypurrFi Pooled": 4514
         }
       }
     ],
     [
       1755734400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 120,
+          "HypurrFi Pooled": 4468
         }
       }
     ],
@@ -3662,175 +3062,45 @@
     [
       1755907200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 42,
           "HypurrFi Pooled": 5206
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1755993600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 6,
+          "HypurrFi Pooled": 4954
         }
       }
     ],
     [
       1756080000,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 103,
+          "HypurrFi Pooled": 5270
         }
       }
     ],
     [
       1756166400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 24,
           "HypurrFi Pooled": 6080
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1756252800,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 15,
+          "HypurrFi Pooled": 5939
         }
       }
     ],
@@ -3846,133 +3116,36 @@
     [
       1756425600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 538,
           "HypurrFi Pooled": 5997
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1756512000,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 17,
+          "HypurrFi Pooled": 6191
         }
       }
     ],
     [
       1756598400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 791,
           "HypurrFi Pooled": 5699
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1756684800,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 725,
           "HypurrFi Pooled": 5815
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
@@ -3988,69 +3161,18 @@
     [
       1756857600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 707,
           "HypurrFi Pooled": 5240
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1756944000,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 751,
+          "HypurrFi Pooled": 5426
         }
       }
     ],
@@ -4075,234 +3197,63 @@
     [
       1757203200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 931,
           "HypurrFi Pooled": 5366
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1757289600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 948,
           "HypurrFi Pooled": 5928
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1757376000,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 894,
           "HypurrFi Pooled": 6801
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1757462400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 854,
+          "HypurrFi Pooled": 6121
         }
       }
     ],
     [
       1757548800,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 882,
           "HypurrFi Pooled": 5592
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1757635200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 901,
+          "HypurrFi Pooled": 7070
         }
       }
     ],
     [
       1757721600,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 1028
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 1028,
+          "HypurrFi Pooled": 5797
         }
       }
     ],
@@ -4318,37 +3269,9 @@
     [
       1757894400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 1049,
+          "HypurrFi Pooled": 6618
         }
       }
     ],
@@ -4364,207 +3287,54 @@
     [
       1758067200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 915,
+          "HypurrFi Pooled": 5637
         }
       }
     ],
     [
       1758153600,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 889
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 889,
+          "HypurrFi Pooled": 5491
         }
       }
     ],
     [
       1758240000,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 781
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 781,
+          "HypurrFi Pooled": 5545
         }
       }
     ],
     [
       1758326400,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 749
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 749,
+          "HypurrFi Pooled": 5079
         }
       }
     ],
     [
       1758412800,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 748,
+          "HypurrFi Pooled": 5016
         }
       }
     ],
     [
       1758499200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 664,
+          "HypurrFi Pooled": 5844
         }
       }
     ],
@@ -4580,64 +3350,18 @@
     [
       1758672000,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 895
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 895,
+          "HypurrFi Pooled": 7883
         }
       }
     ],
     [
       1758758400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 880,
           "HypurrFi Pooled": 7348
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
@@ -4653,133 +3377,36 @@
     [
       1758931200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 715,
           "HypurrFi Pooled": 4488
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1759017600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 589,
           "HypurrFi Pooled": 3723
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1759104000,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 520,
+          "HypurrFi Pooled": 4486
         }
       }
     ],
     [
       1759190400,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 572
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 572,
+          "HypurrFi Pooled": 3594
         }
       }
     ],
@@ -4795,175 +3422,45 @@
     [
       1759363200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 576,
+          "HypurrFi Pooled": 4113
         }
       }
     ],
     [
       1759449600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 584,
+          "HypurrFi Pooled": 4244
         }
       }
     ],
     [
       1759536000,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 457,
+          "HypurrFi Pooled": 3983
         }
       }
     ],
     [
       1759622400,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 375
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 375,
+          "HypurrFi Pooled": 3848
         }
       }
     ],
     [
       1759708800,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 442
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 442,
+          "HypurrFi Pooled": 3903
         }
       }
     ],
@@ -4988,175 +3485,45 @@
     [
       1759968000,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 421,
+          "HypurrFi Pooled": 11
         }
       }
     ],
     [
       1760054400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 492,
           "HypurrFi Pooled": 2898
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1760140800,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 524
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 524,
+          "HypurrFi Pooled": 3184
         }
       }
     ],
     [
       1760227200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 302,
+          "HypurrFi Pooled": 1938
         }
       }
     ],
     [
       1760313600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 321,
+          "HypurrFi Pooled": 1795
         }
       }
     ],
@@ -5172,32 +3539,9 @@
     [
       1760486400,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 292
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 292,
+          "HypurrFi Pooled": 1849
         }
       }
     ],
@@ -5213,74 +3557,18 @@
     [
       1760659200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 284,
+          "HypurrFi Pooled": 1799
         }
       }
     ],
     [
       1760745600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 270,
+          "HypurrFi Pooled": 1707
         }
       }
     ],
@@ -5296,37 +3584,9 @@
     [
       1760918400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 242,
+          "HypurrFi Pooled": 1656
         }
       }
     ],
@@ -5342,308 +3602,81 @@
     [
       1761091200,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 190
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 190,
+          "HypurrFi Pooled": 1742
         }
       }
     ],
     [
       1761177600,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 181
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 181,
+          "HypurrFi Pooled": 1793
         }
       }
     ],
     [
       1761264000,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 187,
+          "HypurrFi Pooled": 1725
         }
       }
     ],
     [
       1761350400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 189,
+          "HypurrFi Pooled": 1631
         }
       }
     ],
     [
       1761436800,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 191
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 191,
+          "HypurrFi Pooled": 1639
         }
       }
     ],
     [
       1761523200,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 160
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 160,
+          "HypurrFi Pooled": 1738
         }
       }
     ],
     [
       1761609600,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 172
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 172,
+          "HypurrFi Pooled": 1695
         }
       }
     ],
     [
       1761696000,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 220,
+          "HypurrFi Pooled": 1772
         }
       }
     ],
     [
       1761782400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 289,
+          "HypurrFi Pooled": 1763
         }
       }
     ],
@@ -5677,63 +3710,17 @@
     [
       1762128000,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 158
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 158,
+          "HypurrFi Pooled": 1839
         }
       }
     ],
     [
       1762214400,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 181
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
+          "HypurrFi Isolated": 181,
           "HypurrFi Pooled": 0
         }
       }
@@ -5741,68 +3728,17 @@
     [
       1762300800,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 291
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 291,
+          "HypurrFi Pooled": 2514
         }
       }
     ],
     [
       1762387200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 198,
           "HypurrFi Pooled": 0
         }
       }
@@ -5819,64 +3755,18 @@
     [
       1762560000,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 282
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 282,
+          "HypurrFi Pooled": 1958
         }
       }
     ],
     [
       1762646400,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 272
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 272,
+          "HypurrFi Pooled": 2268
         }
       }
     ],
@@ -5892,69 +3782,18 @@
     [
       1762819200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 200,
+          "HypurrFi Pooled": 2075
         }
       }
     ],
     [
       1762905600,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 210
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 210,
+          "HypurrFi Pooled": 1379
         }
       }
     ],
@@ -5970,286 +3809,72 @@
     [
       1763078400,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 226
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 226,
+          "HypurrFi Pooled": 1530
         }
       }
     ],
     [
       1763164800,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 240,
+          "HypurrFi Pooled": 1110
         }
       }
     ],
     [
       1763251200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 196,
+          "HypurrFi Pooled": 1359
         }
       }
     ],
     [
       1763337600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 186,
+          "HypurrFi Pooled": 1090
         }
       }
     ],
     [
       1763424000,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 167,
+          "HypurrFi Pooled": 1110
         }
       }
     ],
     [
       1763510400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 197,
+          "HypurrFi Pooled": 1208
         }
       }
     ],
     [
       1763596800,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 328,
+          "HypurrFi Pooled": 1325
         }
       }
     ],
     [
       1763683200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 355,
           "HypurrFi Pooled": 22641
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
@@ -6274,111 +3899,27 @@
     [
       1763942400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 201,
+          "HypurrFi Pooled": 1202
         }
       }
     ],
     [
       1764028800,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 210,
+          "HypurrFi Pooled": 1385
         }
       }
     ],
     [
       1764115200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 203,
+          "HypurrFi Pooled": 1315
         }
       }
     ],
@@ -6394,175 +3935,45 @@
     [
       1764288000,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 176,
+          "HypurrFi Pooled": 1102
         }
       }
     ],
     [
       1764374400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 194,
+          "HypurrFi Pooled": 1209
         }
       }
     ],
     [
       1764460800,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 185
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 185,
+          "HypurrFi Pooled": 1232
         }
       }
     ],
     [
       1764547200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 195,
+          "HypurrFi Pooled": 3201
         }
       }
     ],
     [
       1764633600,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 228
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 228,
+          "HypurrFi Pooled": 1486
         }
       }
     ],
@@ -6578,582 +3989,144 @@
     [
       1764806400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 206,
+          "HypurrFi Pooled": 1189
         }
       }
     ],
     [
       1764892800,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 128,
+          "HypurrFi Pooled": 1440
         }
       }
     ],
     [
       1764979200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 99,
+          "HypurrFi Pooled": 866
         }
       }
     ],
     [
       1765065600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 88,
+          "HypurrFi Pooled": 16310
         }
       }
     ],
     [
       1765152000,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 75,
+          "HypurrFi Pooled": 1025
         }
       }
     ],
     [
       1765238400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 81,
+          "HypurrFi Pooled": 9412
         }
       }
     ],
     [
       1765324800,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 82,
+          "HypurrFi Pooled": 799
         }
       }
     ],
     [
       1765411200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 104,
+          "HypurrFi Pooled": 940
         }
       }
     ],
     [
       1765497600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 107,
+          "HypurrFi Pooled": 883
         }
       }
     ],
     [
       1765584000,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 111,
+          "HypurrFi Pooled": 678
         }
       }
     ],
     [
       1765670400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 110,
+          "HypurrFi Pooled": 668
         }
       }
     ],
     [
       1765756800,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 122,
+          "HypurrFi Pooled": 687
         }
       }
     ],
     [
       1765843200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 149,
+          "HypurrFi Pooled": 2318
         }
       }
     ],
     [
       1765929600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 143,
+          "HypurrFi Pooled": 10727
         }
       }
     ],
     [
       1766016000,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 116
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 116,
+          "HypurrFi Pooled": 14785
         }
       }
     ],
     [
       1766102400,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 79
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 79,
+          "HypurrFi Pooled": 3774
         }
       }
     ],
@@ -7169,73 +4142,17 @@
     [
       1766275200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 81,
+          "HypurrFi Pooled": 1913
         }
       }
     ],
     [
       1766361600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 54,
           "HypurrFi Pooled": 0
         }
       }
@@ -7243,101 +4160,27 @@
     [
       1766448000,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 93
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 93,
+          "HypurrFi Pooled": 477
         }
       }
     ],
     [
       1766534400,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 89
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 89,
+          "HypurrFi Pooled": 528
         }
       }
     ],
     [
       1766620800,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 70,
+          "HypurrFi Pooled": 487
         }
       }
     ],
@@ -7353,243 +4196,62 @@
     [
       1766793600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 47,
+          "HypurrFi Pooled": 481
         }
       }
     ],
     [
       1766880000,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 60
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 60,
+          "HypurrFi Pooled": 499
         }
       }
     ],
     [
       1766966400,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 71
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 71,
+          "HypurrFi Pooled": 492
         }
       }
     ],
     [
       1767052800,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 80,
+          "HypurrFi Pooled": 530
         }
       }
     ],
     [
       1767139200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 92,
+          "HypurrFi Pooled": 467
         }
       }
     ],
     [
       1767225600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 83,
+          "HypurrFi Pooled": 430
         }
       }
     ],
     [
       1767312000,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 59
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
+          "HypurrFi Isolated": 59,
           "HypurrFi Pooled": 0
         }
       }
@@ -7597,413 +4259,107 @@
     [
       1767398400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 100,
           "HypurrFi Pooled": 419
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1767484800,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 91
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 91,
+          "HypurrFi Pooled": 888
         }
       }
     ],
     [
       1767571200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 85,
+          "HypurrFi Pooled": 761
         }
       }
     ],
     [
       1767657600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 92,
+          "HypurrFi Pooled": 511
         }
       }
     ],
     [
       1767744000,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 85,
           "HypurrFi Pooled": 540
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1767830400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 74,
+          "HypurrFi Pooled": 432
         }
       }
     ],
     [
       1767916800,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 89,
+          "HypurrFi Pooled": 428
         }
       }
     ],
     [
       1768003200,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 78,
           "HypurrFi Pooled": 435
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1768089600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 83,
+          "HypurrFi Pooled": 401
         }
       }
     ],
     [
       1768176000,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 112,
+          "HypurrFi Pooled": 3365
         }
       }
     ],
     [
       1768262400,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 100
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 100,
+          "HypurrFi Pooled": 463
         }
       }
     ],
     [
       1768348800,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 112
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
+          "HypurrFi Isolated": 112,
           "HypurrFi Pooled": 0
         }
       }
@@ -8011,142 +4367,35 @@
     [
       1768435200,
       {
-        "Aptos": {
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Pooled": 0
-        },
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 107
-        },
-        "Mantle": {
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 107,
+          "HypurrFi Pooled": 434
         }
       }
     ],
     [
       1768521600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 99,
+          "HypurrFi Pooled": 465
         }
       }
     ],
     [
       1768608000,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 131,
+          "HypurrFi Pooled": 416
         }
       }
     ],
     [
       1768694400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 99,
           "HypurrFi Pooled": 0
         }
       }
@@ -8172,105 +4421,26 @@
     [
       1768953600,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 101,
+          "HypurrFi Pooled": 12909
         }
       }
     ],
     [
       1769040000,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0
-        },
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 73,
           "HypurrFi Pooled": 366
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0
         }
       }
     ],
     [
       1769126400,
       {
-        "Aptos": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Arbitrum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Ethereum": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Mantle": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Noble": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Polygon": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Solana": {
-          "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 0
-        },
-        "Sui": {
-          "HypurrFi Isolated": 0,
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 74,
           "HypurrFi Pooled": 0
         }
       }
@@ -8279,8 +4449,17 @@
       1769212800,
       {
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 71,
-          "HypurrFi Pooled": 367
+          "HypurrFi Isolated": 94,
+          "HypurrFi Pooled": 396
+        }
+      }
+    ],
+    [
+      1769299200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 79,
+          "HypurrFi Pooled": 377
         }
       }
     ]
