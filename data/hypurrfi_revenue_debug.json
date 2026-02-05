@@ -96,9 +96,9 @@
   "slug": "hypurrfi",
   "symbol": "-",
   "total24h": 0,
-  "total30d": 48530,
-  "total48hto24h": 641,
-  "total7d": 5371,
+  "total30d": 47600,
+  "total48hto24h": 0,
+  "total7d": 3731,
   "totalAllTime": 3110215,
   "totalDataChart": [
     [
@@ -1495,6 +1495,10 @@
     ],
     [
       1770163200,
+      0
+    ],
+    [
+      1770249600,
       0
     ]
   ],
@@ -4585,6 +4589,14 @@
     ],
     [
       1770163200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Pooled": 0
+        }
+      }
+    ],
+    [
+      1770249600,
       {
         "Hyperliquid L1": {
           "HypurrFi Pooled": 0
