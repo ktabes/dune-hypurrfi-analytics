@@ -7,6 +7,7 @@
   "chains": [
     "Hyperliquid L1"
   ],
+  "change_1d": 144.68,
   "childProtocols": [
     {
       "breakdownMethodology": {
@@ -95,11 +96,11 @@
   "referralUrl": "https://app.hypurr.fi/points?af=defillama",
   "slug": "hypurrfi",
   "symbol": "-",
-  "total24h": 0,
-  "total30d": 47600,
-  "total48hto24h": 0,
-  "total7d": 3731,
-  "totalAllTime": 3110215,
+  "total24h": 2229,
+  "total30d": 51070,
+  "total48hto24h": 911,
+  "total7d": 7257,
+  "totalAllTime": 1025022,
   "totalDataChart": [
     [
       1740096000,
@@ -879,7 +880,7 @@
     ],
     [
       1756857600,
-      603728
+      6606
     ],
     [
       1756944000,
@@ -887,7 +888,7 @@
     ],
     [
       1757030400,
-      564332
+      8119
     ],
     [
       1757116800,
@@ -995,7 +996,7 @@
     ],
     [
       1759363200,
-      262283
+      5518
     ],
     [
       1759449600,
@@ -1059,11 +1060,11 @@
     ],
     [
       1760745600,
-      168498
+      2284
     ],
     [
       1760832000,
-      164168
+      2124
     ],
     [
       1760918400,
@@ -1131,7 +1132,7 @@
     ],
     [
       1762300800,
-      121666
+      3206
     ],
     [
       1762387200,
@@ -1139,11 +1140,11 @@
     ],
     [
       1762473600,
-      2343
+      2737
     ],
     [
       1762560000,
-      108841
+      2507
     ],
     [
       1762646400,
@@ -1163,7 +1164,7 @@
     ],
     [
       1762992000,
-      88838
+      1877
     ],
     [
       1763078400,
@@ -1191,7 +1192,7 @@
     ],
     [
       1763596800,
-      1925
+      422
     ],
     [
       1763683200,
@@ -1271,11 +1272,11 @@
     ],
     [
       1765324800,
-      881
+      1048
     ],
     [
       1765411200,
-      39639
+      1204
     ],
     [
       1765497600,
@@ -1491,15 +1492,19 @@
     ],
     [
       1770076800,
-      0
+      1025
     ],
     [
       1770163200,
-      0
+      911
     ],
     [
       1770249600,
-      0
+      2229
+    ],
+    [
+      1770336000,
+      132
     ]
   ],
   "totalDataChartBreakdown": [
@@ -3207,7 +3212,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 707,
-          "HypurrFi Pooled": 603021
+          "HypurrFi Pooled": 5899
         }
       }
     ],
@@ -3225,7 +3230,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 880,
-          "HypurrFi Pooled": 563452
+          "HypurrFi Pooled": 7239
         }
       }
     ],
@@ -3468,7 +3473,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 576,
-          "HypurrFi Pooled": 261707
+          "HypurrFi Pooled": 4942
         }
       }
     ],
@@ -3612,7 +3617,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 270,
-          "HypurrFi Pooled": 168228
+          "HypurrFi Pooled": 2014
         }
       }
     ],
@@ -3621,7 +3626,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 253,
-          "HypurrFi Pooled": 163915
+          "HypurrFi Pooled": 1871
         }
       }
     ],
@@ -3774,7 +3779,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 291,
-          "HypurrFi Pooled": 121375
+          "HypurrFi Pooled": 2915
         }
       }
     ],
@@ -3792,7 +3797,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 256,
-          "HypurrFi Pooled": 2087
+          "HypurrFi Pooled": 2481
         }
       }
     ],
@@ -3801,7 +3806,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 282,
-          "HypurrFi Pooled": 108559
+          "HypurrFi Pooled": 2225
         }
       }
     ],
@@ -3846,7 +3851,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 214,
-          "HypurrFi Pooled": 88624
+          "HypurrFi Pooled": 1663
         }
       }
     ],
@@ -3909,7 +3914,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 328,
-          "HypurrFi Pooled": 1597
+          "HypurrFi Pooled": 94
         }
       }
     ],
@@ -4089,7 +4094,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 82,
-          "HypurrFi Pooled": 799
+          "HypurrFi Pooled": 966
         }
       }
     ],
@@ -4098,7 +4103,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 104,
-          "HypurrFi Pooled": 39535
+          "HypurrFi Pooled": 1100
         }
       }
     ],
@@ -4583,7 +4588,8 @@
       1770076800,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 96,
+          "HypurrFi Pooled": 929
         }
       }
     ],
@@ -4591,7 +4597,8 @@
       1770163200,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 0
+          "HypurrFi Isolated": 74,
+          "HypurrFi Pooled": 837
         }
       }
     ],
@@ -4599,6 +4606,16 @@
       1770249600,
       {
         "Hyperliquid L1": {
+          "HypurrFi Isolated": 99,
+          "HypurrFi Pooled": 2130
+        }
+      }
+    ],
+    [
+      1770336000,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 132,
           "HypurrFi Pooled": 0
         }
       }
