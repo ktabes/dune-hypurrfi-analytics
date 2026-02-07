@@ -7,7 +7,7 @@
   "chains": [
     "Hyperliquid L1"
   ],
-  "change_1d": 144.68,
+  "change_1d": -64.65,
   "childProtocols": [
     {
       "breakdownMethodology": {
@@ -96,11 +96,11 @@
   "referralUrl": "https://app.hypurr.fi/points?af=defillama",
   "slug": "hypurrfi",
   "symbol": "-",
-  "total24h": 2229,
-  "total30d": 51070,
-  "total48hto24h": 911,
-  "total7d": 7257,
-  "totalAllTime": 1025022,
+  "total24h": 788,
+  "total30d": 51201,
+  "total48hto24h": 2229,
+  "total7d": 7443,
+  "totalAllTime": 1026392,
   "totalDataChart": [
     [
       1740096000,
@@ -1504,7 +1504,11 @@
     ],
     [
       1770336000,
-      132
+      788
+    ],
+    [
+      1770422400,
+      714
     ]
   ],
   "totalDataChartBreakdown": [
@@ -4616,7 +4620,16 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 132,
-          "HypurrFi Pooled": 0
+          "HypurrFi Pooled": 656
+        }
+      }
+    ],
+    [
+      1770422400,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 91,
+          "HypurrFi Pooled": 623
         }
       }
     ]
