@@ -7,7 +7,7 @@
   "chains": [
     "Hyperliquid L1"
   ],
-  "change_1d": -7.99,
+  "change_1d": -7.13,
   "childProtocols": [
     {
       "breakdownMethodology": {
@@ -96,11 +96,11 @@
   "referralUrl": "https://app.hypurr.fi/points?af=defillama",
   "slug": "hypurrfi",
   "symbol": "-",
-  "total24h": 725,
-  "total30d": 51336,
-  "total48hto24h": 788,
-  "total7d": 6872,
-  "totalAllTime": 1027090,
+  "total24h": 664,
+  "total30d": 42357,
+  "total48hto24h": 715,
+  "total7d": 6863,
+  "totalAllTime": 1018918,
   "totalDataChart": [
     [
       1740096000,
@@ -144,15 +144,15 @@
     ],
     [
       1740960000,
-      1
+      2
     ],
     [
       1741046400,
-      3
+      4
     ],
     [
       1741132800,
-      3
+      4
     ],
     [
       1741219200,
@@ -164,7 +164,7 @@
     ],
     [
       1741392000,
-      3
+      4
     ],
     [
       1741478400,
@@ -172,595 +172,595 @@
     ],
     [
       1741564800,
-      3
+      4
     ],
     [
       1741651200,
-      7
+      9
     ],
     [
       1741737600,
-      16
-    ],
-    [
-      1741824000,
-      10
-    ],
-    [
-      1741910400,
-      10
-    ],
-    [
-      1741996800,
-      11
-    ],
-    [
-      1742083200,
-      12
-    ],
-    [
-      1742169600,
-      13
-    ],
-    [
-      1742256000,
-      14
-    ],
-    [
-      1742342400,
       20
     ],
     [
+      1741824000,
+      13
+    ],
+    [
+      1741910400,
+      12
+    ],
+    [
+      1741996800,
+      14
+    ],
+    [
+      1742083200,
+      15
+    ],
+    [
+      1742169600,
+      16
+    ],
+    [
+      1742256000,
+      17
+    ],
+    [
+      1742342400,
+      25
+    ],
+    [
       1742428800,
-      30
+      38
     ],
     [
       1742515200,
-      23
-    ],
-    [
-      1742601600,
-      19
-    ],
-    [
-      1742688000,
-      19
-    ],
-    [
-      1742774400,
-      22
-    ],
-    [
-      1742860800,
-      36
-    ],
-    [
-      1742947200,
-      44
-    ],
-    [
-      1743033600,
-      73
-    ],
-    [
-      1743120000,
       29
     ],
     [
-      1743206400,
-      23
+      1742601600,
+      24
     ],
     [
-      1743292800,
-      23
+      1742688000,
+      24
     ],
     [
-      1743379200,
-      26
-    ],
-    [
-      1743465600,
+      1742774400,
       27
     ],
     [
+      1742860800,
+      45
+    ],
+    [
+      1742947200,
+      55
+    ],
+    [
+      1743033600,
+      92
+    ],
+    [
+      1743120000,
+      36
+    ],
+    [
+      1743206400,
+      29
+    ],
+    [
+      1743292800,
+      29
+    ],
+    [
+      1743379200,
+      33
+    ],
+    [
+      1743465600,
+      33
+    ],
+    [
       1743552000,
-      178
+      188
     ],
     [
       1743638400,
-      181
+      191
     ],
     [
       1743724800,
-      186
+      195
     ],
     [
       1743811200,
-      187
+      197
     ],
     [
       1743897600,
-      174
+      180
     ],
     [
       1743984000,
-      167
+      174
     ],
     [
       1744070400,
-      176
+      184
     ],
     [
       1744156800,
-      229
+      246
     ],
     [
       1744243200,
-      276
+      296
     ],
     [
       1744329600,
-      309
+      331
     ],
     [
       1744416000,
-      328
+      352
     ],
     [
       1744502400,
-      325
-    ],
-    [
-      1744588800,
-      366
-    ],
-    [
-      1744675200,
-      325
-    ],
-    [
-      1744761600,
-      354
-    ],
-    [
-      1744848000,
       347
     ],
     [
+      1744588800,
+      397
+    ],
+    [
+      1744675200,
+      352
+    ],
+    [
+      1744761600,
+      376
+    ],
+    [
+      1744848000,
+      375
+    ],
+    [
       1744934400,
-      373
+      404
     ],
     [
       1745020800,
-      400
+      432
     ],
     [
       1745107200,
-      403
+      436
     ],
     [
       1745193600,
-      576
+      652
     ],
     [
       1745280000,
-      487
+      534
     ],
     [
       1745366400,
-      441
+      474
     ],
     [
       1745452800,
-      458
+      493
     ],
     [
       1745539200,
-      448
+      484
     ],
     [
       1745625600,
-      460
-    ],
-    [
-      1745712000,
       495
     ],
     [
+      1745712000,
+      528
+    ],
+    [
       1745798400,
-      502
+      538
     ],
     [
       1745884800,
-      488
-    ],
-    [
-      1745971200,
       525
     ],
     [
+      1745971200,
+      565
+    ],
+    [
       1746057600,
-      532
+      578
     ],
     [
       1746144000,
-      625
+      687
     ],
     [
       1746230400,
-      556
+      601
     ],
     [
       1746316800,
-      545
+      585
     ],
     [
       1746403200,
-      630
+      684
     ],
     [
       1746489600,
-      643
+      696
     ],
     [
       1746576000,
-      606
+      657
     ],
     [
       1746662400,
-      731
+      821
     ],
     [
       1746748800,
-      823
+      945
     ],
     [
       1746835200,
-      1245
+      1371
     ],
     [
       1746921600,
-      1905
+      2006
     ],
     [
       1747008000,
-      3287
+      3380
     ],
     [
       1747094400,
-      1781
+      1906
     ],
     [
       1747180800,
-      1550
+      1630
     ],
     [
       1747267200,
-      1533
+      1617
     ],
     [
       1747353600,
-      1686
+      1802
     ],
     [
       1747440000,
-      1694
+      1793
     ],
     [
       1747526400,
-      1792
+      1908
     ],
     [
       1747612800,
-      1944
+      2094
     ],
     [
       1747699200,
-      1540
+      1656
     ],
     [
       1747785600,
-      1621
+      1764
     ],
     [
       1747872000,
-      1795
+      1986
     ],
     [
       1747958400,
-      1937
+      2146
     ],
     [
       1748044800,
-      1725
+      1896
     ],
     [
       1748131200,
-      2242
+      2524
     ],
     [
       1748217600,
-      2047
+      2284
     ],
     [
       1748304000,
-      1723
+      1876
     ],
     [
       1748390400,
-      1890
+      2081
     ],
     [
       1748476800,
-      2270
+      2557
     ],
     [
       1748563200,
-      1861
+      2050
     ],
     [
       1748649600,
-      1973
+      2198
     ],
     [
       1748736000,
-      2214
+      2444
     ],
     [
       1748822400,
-      2057
+      2289
     ],
     [
       1748908800,
-      1935
+      2146
     ],
     [
       1748995200,
-      1937
+      2138
     ],
     [
       1749081600,
-      2047
+      2284
     ],
     [
       1749168000,
-      2229
+      2514
     ],
     [
       1749254400,
-      1883
+      2081
     ],
     [
       1749340800,
-      1755
+      1934
     ],
     [
       1749427200,
-      2099
+      2334
     ],
     [
       1749513600,
-      3015
+      3309
     ],
     [
       1749600000,
-      2149
+      2413
     ],
     [
       1749686400,
-      2396
+      2719
     ],
     [
       1749772800,
-      2593
+      2952
     ],
     [
       1749859200,
-      2561
+      2925
     ],
     [
       1749945600,
-      2323
+      2622
     ],
     [
       1750032000,
-      2778
+      3177
     ],
     [
       1750118400,
-      2483
+      2819
     ],
     [
       1750204800,
-      2268
+      2551
     ],
     [
       1750291200,
-      1984
+      2193
     ],
     [
       1750377600,
-      2268
+      2484
     ],
     [
       1750464000,
-      3199
+      3433
     ],
     [
       1750550400,
-      3040
+      3268
     ],
     [
       1750636800,
-      2266
+      2495
     ],
     [
       1750723200,
-      2276
+      2508
     ],
     [
       1750809600,
-      2200
+      2408
     ],
     [
       1750896000,
-      1981
+      2161
     ],
     [
       1750982400,
-      2299
+      2535
     ],
     [
       1751068800,
-      2218
+      2460
     ],
     [
       1751155200,
-      1996
+      2211
     ],
     [
       1751241600,
-      2183
+      2414
     ],
     [
       1751328000,
-      2140
+      2382
     ],
     [
       1751414400,
-      2239
+      2496
     ],
     [
       1751500800,
-      2101
+      2328
     ],
     [
       1751587200,
-      1976
+      2185
     ],
     [
       1751673600,
-      1968
+      2194
     ],
     [
       1751760000,
-      2030
+      2270
     ],
     [
       1751846400,
-      1886
+      2120
     ],
     [
       1751932800,
-      8423
+      8786
     ],
     [
       1752019200,
-      2654
+      3106
     ],
     [
       1752105600,
-      2635
+      3091
     ],
     [
       1752192000,
-      2619
+      3080
     ],
     [
       1752278400,
-      3397
+      4037
     ],
     [
       1752364800,
-      4261
+      5101
     ],
     [
       1752451200,
-      4290
+      5158
     ],
     [
       1752537600,
-      5166
+      5919
     ],
     [
       1752624000,
-      6114
+      7369
     ],
     [
       1752710400,
-      4339
-    ],
-    [
-      1752796800,
-      4126
-    ],
-    [
-      1752883200,
-      4253
-    ],
-    [
-      1752969600,
-      4422
-    ],
-    [
-      1753056000,
-      4725
-    ],
-    [
-      1753142400,
-      5155
-    ],
-    [
-      1753228800,
-      5412
-    ],
-    [
-      1753315200,
-      4005
-    ],
-    [
-      1753401600,
-      3685
-    ],
-    [
-      1753488000,
-      4778
-    ],
-    [
-      1753574400,
-      3988
-    ],
-    [
-      1753660800,
-      4829
-    ],
-    [
-      1753747200,
-      4959
-    ],
-    [
-      1753833600,
-      6240
-    ],
-    [
-      1753920000,
-      7884
-    ],
-    [
-      1754006400,
-      6110
-    ],
-    [
-      1754092800,
       5162
     ],
     [
+      1752796800,
+      4869
+    ],
+    [
+      1752883200,
+      5054
+    ],
+    [
+      1752969600,
+      5243
+    ],
+    [
+      1753056000,
+      5616
+    ],
+    [
+      1753142400,
+      6162
+    ],
+    [
+      1753228800,
+      6217
+    ],
+    [
+      1753315200,
+      4730
+    ],
+    [
+      1753401600,
+      4234
+    ],
+    [
+      1753488000,
+      5602
+    ],
+    [
+      1753574400,
+      4585
+    ],
+    [
+      1753660800,
+      5608
+    ],
+    [
+      1753747200,
+      5736
+    ],
+    [
+      1753833600,
+      7377
+    ],
+    [
+      1753920000,
+      9383
+    ],
+    [
+      1754006400,
+      6818
+    ],
+    [
+      1754092800,
+      5983
+    ],
+    [
       1754179200,
-      4449
+      5100
     ],
     [
       1754265600,
-      3331
+      3621
     ],
     [
       1754352000,
@@ -780,7 +780,7 @@
     ],
     [
       1754697600,
-      5599
+      5600
     ],
     [
       1754784000,
@@ -788,7 +788,7 @@
     ],
     [
       1754870400,
-      6511
+      7500
     ],
     [
       1754956800,
@@ -812,11 +812,11 @@
     ],
     [
       1755388800,
-      4750
+      4748
     ],
     [
       1755475200,
-      4939
+      4941
     ],
     [
       1755561600,
@@ -832,19 +832,19 @@
     ],
     [
       1755820800,
-      5943
+      5949
     ],
     [
       1755907200,
-      5787
+      5781
     ],
     [
       1755993600,
-      5611
+      5632
     ],
     [
       1756080000,
-      6139
+      6127
     ],
     [
       1756166400,
@@ -864,7 +864,7 @@
     ],
     [
       1756512000,
-      7068
+      7067
     ],
     [
       1756598400,
@@ -872,7 +872,7 @@
     ],
     [
       1756684800,
-      7471
+      7468
     ],
     [
       1756771200,
@@ -880,11 +880,11 @@
     ],
     [
       1756857600,
-      6606
+      6580
     ],
     [
       1756944000,
-      6951
+      6980
     ],
     [
       1757030400,
@@ -904,7 +904,7 @@
     ],
     [
       1757376000,
-      7695
+      8914
     ],
     [
       1757462400,
@@ -912,23 +912,23 @@
     ],
     [
       1757548800,
-      974
+      7501
     ],
     [
       1757635200,
-      7971
+      9298
     ],
     [
       1757721600,
-      7987
+      7995
     ],
     [
       1757808000,
-      6181
+      7292
     ],
     [
       1757894400,
-      7667
+      9275
     ],
     [
       1757980800,
@@ -936,11 +936,11 @@
     ],
     [
       1758067200,
-      7681
+      7696
     ],
     [
       1758153600,
-      7520
+      7505
     ],
     [
       1758240000,
@@ -948,11 +948,11 @@
     ],
     [
       1758326400,
-      6876
+      6878
     ],
     [
       1758412800,
-      6691
+      6689
     ],
     [
       1758499200,
@@ -960,23 +960,23 @@
     ],
     [
       1758585600,
-      8312
+      8293
     ],
     [
       1758672000,
-      10162
+      10181
     ],
     [
       1758758400,
-      9752
+      9757
     ],
     [
       1758844800,
-      7008
+      7002
     ],
     [
       1758931200,
-      6055
+      6049
     ],
     [
       1759017600,
@@ -1000,11 +1000,11 @@
     ],
     [
       1759449600,
-      4828
+      5366
     ],
     [
       1759536000,
-      4440
+      5139
     ],
     [
       1759622400,
@@ -1012,11 +1012,11 @@
     ],
     [
       1759708800,
-      5026
+      5015
     ],
     [
       1759795200,
-      4157
+      4771
     ],
     [
       1759881600,
@@ -1024,11 +1024,11 @@
     ],
     [
       1759968000,
-      432
+      4667
     ],
     [
       1760054400,
-      15764
+      4240
     ],
     [
       1760140800,
@@ -1036,15 +1036,15 @@
     ],
     [
       1760227200,
-      2240
+      2484
     ],
     [
       1760313600,
-      2116
+      2492
     ],
     [
       1760400000,
-      2142
+      2461
     ],
     [
       1760486400,
@@ -1052,7 +1052,7 @@
     ],
     [
       1760572800,
-      2440
+      2432
     ],
     [
       1760659200,
@@ -1068,7 +1068,7 @@
     ],
     [
       1760918400,
-      1898
+      2191
     ],
     [
       1761004800,
@@ -1092,7 +1092,7 @@
     ],
     [
       1761436800,
-      2171
+      2103
     ],
     [
       1761523200,
@@ -1100,15 +1100,15 @@
     ],
     [
       1761609600,
-      2138
+      2136
     ],
     [
       1761696000,
-      2254
+      2255
     ],
     [
       1761782400,
-      2454
+      2355
     ],
     [
       1761868800,
@@ -1192,7 +1192,7 @@
     ],
     [
       1763596800,
-      422
+      1925
     ],
     [
       1763683200,
@@ -1200,11 +1200,11 @@
     ],
     [
       1763769600,
-      4782
+      4976
     ],
     [
       1763856000,
-      1210
+      1429
     ],
     [
       1763942400,
@@ -1260,11 +1260,11 @@
     ],
     [
       1765065600,
-      16637
+      16638
     ],
     [
       1765152000,
-      1323
+      1322
     ],
     [
       1765238400,
@@ -1288,11 +1288,11 @@
     ],
     [
       1765670400,
-      778
+      916
     ],
     [
       1765756800,
-      809
+      948
     ],
     [
       1765843200,
@@ -1304,11 +1304,11 @@
     ],
     [
       1766016000,
-      8185
+      8595
     ],
     [
       1766102400,
-      36537
+      11040
     ],
     [
       1766188800,
@@ -1324,11 +1324,11 @@
     ],
     [
       1766448000,
-      656
+      655
     ],
     [
       1766534400,
-      21981
+      728
     ],
     [
       1766620800,
@@ -1364,7 +1364,7 @@
     ],
     [
       1767312000,
-      59
+      583
     ],
     [
       1767398400,
@@ -1416,7 +1416,7 @@
     ],
     [
       1768435200,
-      9731
+      628
     ],
     [
       1768521600,
@@ -1424,7 +1424,7 @@
     ],
     [
       1768608000,
-      547
+      629
     ],
     [
       1768694400,
@@ -1468,7 +1468,7 @@
     ],
     [
       1769558400,
-      1640
+      1731
     ],
     [
       1769644800,
@@ -1476,15 +1476,15 @@
     ],
     [
       1769731200,
-      602
+      605
     ],
     [
       1769817600,
-      1296
+      1293
     ],
     [
       1769904000,
-      553
+      551
     ],
     [
       1769990400,
@@ -1496,11 +1496,11 @@
     ],
     [
       1770163200,
-      911
+      910
     ],
     [
       1770249600,
-      2229
+      2120
     ],
     [
       1770336000,
@@ -1508,11 +1508,15 @@
     ],
     [
       1770422400,
-      725
+      715
     ],
     [
       1770508800,
-      687
+      664
+    ],
+    [
+      1770595200,
+      612
     ]
   ],
   "totalDataChartBreakdown": [
@@ -1600,7 +1604,7 @@
       1740960000,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 1
+          "HypurrFi Pooled": 2
         }
       }
     ],
@@ -1608,7 +1612,7 @@
       1741046400,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 3
+          "HypurrFi Pooled": 4
         }
       }
     ],
@@ -1616,7 +1620,7 @@
       1741132800,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 3
+          "HypurrFi Pooled": 4
         }
       }
     ],
@@ -1640,7 +1644,7 @@
       1741392000,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 3
+          "HypurrFi Pooled": 4
         }
       }
     ],
@@ -1656,7 +1660,7 @@
       1741564800,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 3
+          "HypurrFi Pooled": 4
         }
       }
     ],
@@ -1664,7 +1668,7 @@
       1741651200,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 7
+          "HypurrFi Pooled": 9
         }
       }
     ],
@@ -1672,7 +1676,7 @@
       1741737600,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 16
+          "HypurrFi Pooled": 20
         }
       }
     ],
@@ -1680,7 +1684,7 @@
       1741824000,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 10
+          "HypurrFi Pooled": 13
         }
       }
     ],
@@ -1688,7 +1692,7 @@
       1741910400,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 10
+          "HypurrFi Pooled": 12
         }
       }
     ],
@@ -1696,7 +1700,7 @@
       1741996800,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 11
+          "HypurrFi Pooled": 14
         }
       }
     ],
@@ -1704,7 +1708,7 @@
       1742083200,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 12
+          "HypurrFi Pooled": 15
         }
       }
     ],
@@ -1712,7 +1716,7 @@
       1742169600,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 13
+          "HypurrFi Pooled": 16
         }
       }
     ],
@@ -1720,7 +1724,7 @@
       1742256000,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 14
+          "HypurrFi Pooled": 17
         }
       }
     ],
@@ -1728,7 +1732,7 @@
       1742342400,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 20
+          "HypurrFi Pooled": 25
         }
       }
     ],
@@ -1736,7 +1740,7 @@
       1742428800,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 30
+          "HypurrFi Pooled": 38
         }
       }
     ],
@@ -1744,7 +1748,7 @@
       1742515200,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 23
+          "HypurrFi Pooled": 29
         }
       }
     ],
@@ -1752,7 +1756,7 @@
       1742601600,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 19
+          "HypurrFi Pooled": 24
         }
       }
     ],
@@ -1760,7 +1764,7 @@
       1742688000,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 19
+          "HypurrFi Pooled": 24
         }
       }
     ],
@@ -1768,7 +1772,7 @@
       1742774400,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 22
+          "HypurrFi Pooled": 27
         }
       }
     ],
@@ -1776,7 +1780,7 @@
       1742860800,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 36
+          "HypurrFi Pooled": 45
         }
       }
     ],
@@ -1784,7 +1788,7 @@
       1742947200,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 44
+          "HypurrFi Pooled": 55
         }
       }
     ],
@@ -1792,7 +1796,7 @@
       1743033600,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 73
+          "HypurrFi Pooled": 92
         }
       }
     ],
@@ -1800,7 +1804,7 @@
       1743120000,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 29
+          "HypurrFi Pooled": 36
         }
       }
     ],
@@ -1808,7 +1812,7 @@
       1743206400,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 23
+          "HypurrFi Pooled": 29
         }
       }
     ],
@@ -1816,7 +1820,7 @@
       1743292800,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 23
+          "HypurrFi Pooled": 29
         }
       }
     ],
@@ -1824,7 +1828,7 @@
       1743379200,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 26
+          "HypurrFi Pooled": 33
         }
       }
     ],
@@ -1832,7 +1836,7 @@
       1743465600,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 27
+          "HypurrFi Pooled": 33
         }
       }
     ],
@@ -1840,7 +1844,7 @@
       1743552000,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 178
+          "HypurrFi Pooled": 188
         }
       }
     ],
@@ -1848,7 +1852,7 @@
       1743638400,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 181
+          "HypurrFi Pooled": 191
         }
       }
     ],
@@ -1856,7 +1860,7 @@
       1743724800,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 186
+          "HypurrFi Pooled": 195
         }
       }
     ],
@@ -1864,7 +1868,7 @@
       1743811200,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 187
+          "HypurrFi Pooled": 197
         }
       }
     ],
@@ -1872,7 +1876,7 @@
       1743897600,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 174
+          "HypurrFi Pooled": 180
         }
       }
     ],
@@ -1880,7 +1884,7 @@
       1743984000,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 167
+          "HypurrFi Pooled": 174
         }
       }
     ],
@@ -1888,7 +1892,7 @@
       1744070400,
       {
         "Hyperliquid L1": {
-          "HypurrFi Pooled": 176
+          "HypurrFi Pooled": 184
         }
       }
     ],
@@ -1897,7 +1901,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 229
+          "HypurrFi Pooled": 246
         }
       }
     ],
@@ -1906,7 +1910,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1,
-          "HypurrFi Pooled": 275
+          "HypurrFi Pooled": 295
         }
       }
     ],
@@ -1915,7 +1919,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 309
+          "HypurrFi Pooled": 331
         }
       }
     ],
@@ -1924,7 +1928,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 328
+          "HypurrFi Pooled": 352
         }
       }
     ],
@@ -1933,7 +1937,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 325
+          "HypurrFi Pooled": 347
         }
       }
     ],
@@ -1942,7 +1946,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 366
+          "HypurrFi Pooled": 397
         }
       }
     ],
@@ -1951,7 +1955,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 325
+          "HypurrFi Pooled": 352
         }
       }
     ],
@@ -1960,7 +1964,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1,
-          "HypurrFi Pooled": 353
+          "HypurrFi Pooled": 375
         }
       }
     ],
@@ -1969,7 +1973,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 347
+          "HypurrFi Pooled": 375
         }
       }
     ],
@@ -1978,7 +1982,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 373
+          "HypurrFi Pooled": 404
         }
       }
     ],
@@ -1987,7 +1991,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 400
+          "HypurrFi Pooled": 432
         }
       }
     ],
@@ -1996,7 +2000,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1,
-          "HypurrFi Pooled": 402
+          "HypurrFi Pooled": 435
         }
       }
     ],
@@ -2005,7 +2009,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 576
+          "HypurrFi Pooled": 652
         }
       }
     ],
@@ -2014,7 +2018,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 487
+          "HypurrFi Pooled": 534
         }
       }
     ],
@@ -2023,7 +2027,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1,
-          "HypurrFi Pooled": 440
+          "HypurrFi Pooled": 473
         }
       }
     ],
@@ -2032,7 +2036,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 2,
-          "HypurrFi Pooled": 456
+          "HypurrFi Pooled": 491
         }
       }
     ],
@@ -2041,7 +2045,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 448
+          "HypurrFi Pooled": 484
         }
       }
     ],
@@ -2050,7 +2054,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 460
+          "HypurrFi Pooled": 495
         }
       }
     ],
@@ -2059,7 +2063,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 495
+          "HypurrFi Pooled": 528
         }
       }
     ],
@@ -2068,7 +2072,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1,
-          "HypurrFi Pooled": 501
+          "HypurrFi Pooled": 537
         }
       }
     ],
@@ -2077,7 +2081,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1,
-          "HypurrFi Pooled": 487
+          "HypurrFi Pooled": 524
         }
       }
     ],
@@ -2086,7 +2090,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 525
+          "HypurrFi Pooled": 565
         }
       }
     ],
@@ -2095,7 +2099,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 532
+          "HypurrFi Pooled": 578
         }
       }
     ],
@@ -2104,7 +2108,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 625
+          "HypurrFi Pooled": 687
         }
       }
     ],
@@ -2113,7 +2117,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 556
+          "HypurrFi Pooled": 601
         }
       }
     ],
@@ -2122,7 +2126,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 2,
-          "HypurrFi Pooled": 543
+          "HypurrFi Pooled": 583
         }
       }
     ],
@@ -2131,7 +2135,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 630
+          "HypurrFi Pooled": 684
         }
       }
     ],
@@ -2140,7 +2144,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 643
+          "HypurrFi Pooled": 696
         }
       }
     ],
@@ -2149,7 +2153,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 606
+          "HypurrFi Pooled": 657
         }
       }
     ],
@@ -2158,7 +2162,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 731
+          "HypurrFi Pooled": 821
         }
       }
     ],
@@ -2167,7 +2171,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1,
-          "HypurrFi Pooled": 822
+          "HypurrFi Pooled": 944
         }
       }
     ],
@@ -2176,7 +2180,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 1245
+          "HypurrFi Pooled": 1371
         }
       }
     ],
@@ -2185,7 +2189,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1,
-          "HypurrFi Pooled": 1904
+          "HypurrFi Pooled": 2005
         }
       }
     ],
@@ -2194,7 +2198,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1507,
-          "HypurrFi Pooled": 1780
+          "HypurrFi Pooled": 1873
         }
       }
     ],
@@ -2203,7 +2207,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 1781
+          "HypurrFi Pooled": 1906
         }
       }
     ],
@@ -2212,7 +2216,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 2,
-          "HypurrFi Pooled": 1548
+          "HypurrFi Pooled": 1628
         }
       }
     ],
@@ -2221,7 +2225,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 1533
+          "HypurrFi Pooled": 1617
         }
       }
     ],
@@ -2230,7 +2234,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 1686
+          "HypurrFi Pooled": 1802
         }
       }
     ],
@@ -2239,7 +2243,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 5,
-          "HypurrFi Pooled": 1689
+          "HypurrFi Pooled": 1788
         }
       }
     ],
@@ -2248,7 +2252,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 1792
+          "HypurrFi Pooled": 1908
         }
       }
     ],
@@ -2257,7 +2261,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 1944
+          "HypurrFi Pooled": 2094
         }
       }
     ],
@@ -2266,7 +2270,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 23,
-          "HypurrFi Pooled": 1517
+          "HypurrFi Pooled": 1633
         }
       }
     ],
@@ -2275,7 +2279,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 1621
+          "HypurrFi Pooled": 1764
         }
       }
     ],
@@ -2284,7 +2288,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 1795
+          "HypurrFi Pooled": 1986
         }
       }
     ],
@@ -2293,7 +2297,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 1937
+          "HypurrFi Pooled": 2146
         }
       }
     ],
@@ -2302,7 +2306,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1,
-          "HypurrFi Pooled": 1724
+          "HypurrFi Pooled": 1895
         }
       }
     ],
@@ -2311,7 +2315,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 2242
+          "HypurrFi Pooled": 2524
         }
       }
     ],
@@ -2320,7 +2324,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 5,
-          "HypurrFi Pooled": 2042
+          "HypurrFi Pooled": 2279
         }
       }
     ],
@@ -2329,7 +2333,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 1723
+          "HypurrFi Pooled": 1876
         }
       }
     ],
@@ -2338,7 +2342,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1,
-          "HypurrFi Pooled": 1889
+          "HypurrFi Pooled": 2080
         }
       }
     ],
@@ -2347,7 +2351,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 2270
+          "HypurrFi Pooled": 2557
         }
       }
     ],
@@ -2356,7 +2360,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 2,
-          "HypurrFi Pooled": 1859
+          "HypurrFi Pooled": 2048
         }
       }
     ],
@@ -2365,7 +2369,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 11,
-          "HypurrFi Pooled": 1962
+          "HypurrFi Pooled": 2187
         }
       }
     ],
@@ -2374,7 +2378,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 175,
-          "HypurrFi Pooled": 2039
+          "HypurrFi Pooled": 2269
         }
       }
     ],
@@ -2383,7 +2387,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1,
-          "HypurrFi Pooled": 2056
+          "HypurrFi Pooled": 2288
         }
       }
     ],
@@ -2392,7 +2396,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 5,
-          "HypurrFi Pooled": 1930
+          "HypurrFi Pooled": 2141
         }
       }
     ],
@@ -2401,7 +2405,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 0,
-          "HypurrFi Pooled": 1937
+          "HypurrFi Pooled": 2138
         }
       }
     ],
@@ -2410,7 +2414,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 6,
-          "HypurrFi Pooled": 2041
+          "HypurrFi Pooled": 2278
         }
       }
     ],
@@ -2419,7 +2423,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 2,
-          "HypurrFi Pooled": 2227
+          "HypurrFi Pooled": 2512
         }
       }
     ],
@@ -2428,7 +2432,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 2,
-          "HypurrFi Pooled": 1881
+          "HypurrFi Pooled": 2079
         }
       }
     ],
@@ -2437,7 +2441,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 2,
-          "HypurrFi Pooled": 1753
+          "HypurrFi Pooled": 1932
         }
       }
     ],
@@ -2446,7 +2450,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 4,
-          "HypurrFi Pooled": 2095
+          "HypurrFi Pooled": 2330
         }
       }
     ],
@@ -2455,7 +2459,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 735,
-          "HypurrFi Pooled": 2280
+          "HypurrFi Pooled": 2574
         }
       }
     ],
@@ -2464,7 +2468,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 5,
-          "HypurrFi Pooled": 2144
+          "HypurrFi Pooled": 2408
         }
       }
     ],
@@ -2473,7 +2477,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 7,
-          "HypurrFi Pooled": 2389
+          "HypurrFi Pooled": 2712
         }
       }
     ],
@@ -2482,7 +2486,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 10,
-          "HypurrFi Pooled": 2583
+          "HypurrFi Pooled": 2942
         }
       }
     ],
@@ -2491,7 +2495,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1,
-          "HypurrFi Pooled": 2560
+          "HypurrFi Pooled": 2924
         }
       }
     ],
@@ -2500,7 +2504,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 3,
-          "HypurrFi Pooled": 2320
+          "HypurrFi Pooled": 2619
         }
       }
     ],
@@ -2509,7 +2513,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 66,
-          "HypurrFi Pooled": 2712
+          "HypurrFi Pooled": 3111
         }
       }
     ],
@@ -2518,7 +2522,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 17,
-          "HypurrFi Pooled": 2466
+          "HypurrFi Pooled": 2802
         }
       }
     ],
@@ -2527,7 +2531,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 44,
-          "HypurrFi Pooled": 2224
+          "HypurrFi Pooled": 2507
         }
       }
     ],
@@ -2536,7 +2540,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 66,
-          "HypurrFi Pooled": 1918
+          "HypurrFi Pooled": 2127
         }
       }
     ],
@@ -2545,7 +2549,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 25,
-          "HypurrFi Pooled": 2243
+          "HypurrFi Pooled": 2459
         }
       }
     ],
@@ -2554,7 +2558,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 926,
-          "HypurrFi Pooled": 2273
+          "HypurrFi Pooled": 2507
         }
       }
     ],
@@ -2563,7 +2567,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 780,
-          "HypurrFi Pooled": 2260
+          "HypurrFi Pooled": 2488
         }
       }
     ],
@@ -2572,7 +2576,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 20,
-          "HypurrFi Pooled": 2246
+          "HypurrFi Pooled": 2475
         }
       }
     ],
@@ -2581,7 +2585,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1,
-          "HypurrFi Pooled": 2275
+          "HypurrFi Pooled": 2507
         }
       }
     ],
@@ -2590,7 +2594,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 26,
-          "HypurrFi Pooled": 2174
+          "HypurrFi Pooled": 2382
         }
       }
     ],
@@ -2599,7 +2603,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 2,
-          "HypurrFi Pooled": 1979
+          "HypurrFi Pooled": 2159
         }
       }
     ],
@@ -2608,7 +2612,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 2,
-          "HypurrFi Pooled": 2297
+          "HypurrFi Pooled": 2533
         }
       }
     ],
@@ -2617,7 +2621,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 19,
-          "HypurrFi Pooled": 2199
+          "HypurrFi Pooled": 2441
         }
       }
     ],
@@ -2626,7 +2630,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 3,
-          "HypurrFi Pooled": 1993
+          "HypurrFi Pooled": 2208
         }
       }
     ],
@@ -2635,7 +2639,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 14,
-          "HypurrFi Pooled": 2169
+          "HypurrFi Pooled": 2400
         }
       }
     ],
@@ -2644,7 +2648,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 4,
-          "HypurrFi Pooled": 2136
+          "HypurrFi Pooled": 2378
         }
       }
     ],
@@ -2653,7 +2657,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 3,
-          "HypurrFi Pooled": 2236
+          "HypurrFi Pooled": 2493
         }
       }
     ],
@@ -2662,7 +2666,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 4,
-          "HypurrFi Pooled": 2097
+          "HypurrFi Pooled": 2324
         }
       }
     ],
@@ -2671,7 +2675,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1,
-          "HypurrFi Pooled": 1975
+          "HypurrFi Pooled": 2184
         }
       }
     ],
@@ -2680,7 +2684,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 42,
-          "HypurrFi Pooled": 1926
+          "HypurrFi Pooled": 2152
         }
       }
     ],
@@ -2689,7 +2693,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 17,
-          "HypurrFi Pooled": 2013
+          "HypurrFi Pooled": 2253
         }
       }
     ],
@@ -2698,7 +2702,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 15,
-          "HypurrFi Pooled": 1871
+          "HypurrFi Pooled": 2105
         }
       }
     ],
@@ -2707,7 +2711,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 6098,
-          "HypurrFi Pooled": 2325
+          "HypurrFi Pooled": 2688
         }
       }
     ],
@@ -2716,7 +2720,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1,
-          "HypurrFi Pooled": 2653
+          "HypurrFi Pooled": 3105
         }
       }
     ],
@@ -2725,7 +2729,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 6,
-          "HypurrFi Pooled": 2629
+          "HypurrFi Pooled": 3085
         }
       }
     ],
@@ -2734,7 +2738,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 28,
-          "HypurrFi Pooled": 2591
+          "HypurrFi Pooled": 3052
         }
       }
     ],
@@ -2743,7 +2747,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 6,
-          "HypurrFi Pooled": 3391
+          "HypurrFi Pooled": 4031
         }
       }
     ],
@@ -2752,7 +2756,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 31,
-          "HypurrFi Pooled": 4230
+          "HypurrFi Pooled": 5070
         }
       }
     ],
@@ -2761,7 +2765,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 5,
-          "HypurrFi Pooled": 4285
+          "HypurrFi Pooled": 5153
         }
       }
     ],
@@ -2770,7 +2774,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1251,
-          "HypurrFi Pooled": 3915
+          "HypurrFi Pooled": 4668
         }
       }
     ],
@@ -2779,7 +2783,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 158,
-          "HypurrFi Pooled": 5956
+          "HypurrFi Pooled": 7211
         }
       }
     ],
@@ -2788,7 +2792,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 16,
-          "HypurrFi Pooled": 4323
+          "HypurrFi Pooled": 5146
         }
       }
     ],
@@ -2797,7 +2801,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 78,
-          "HypurrFi Pooled": 4048
+          "HypurrFi Pooled": 4791
         }
       }
     ],
@@ -2806,7 +2810,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 10,
-          "HypurrFi Pooled": 4243
+          "HypurrFi Pooled": 5044
         }
       }
     ],
@@ -2815,7 +2819,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 114,
-          "HypurrFi Pooled": 4308
+          "HypurrFi Pooled": 5129
         }
       }
     ],
@@ -2824,7 +2828,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 69,
-          "HypurrFi Pooled": 4656
+          "HypurrFi Pooled": 5547
         }
       }
     ],
@@ -2833,7 +2837,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 21,
-          "HypurrFi Pooled": 5134
+          "HypurrFi Pooled": 6141
         }
       }
     ],
@@ -2842,7 +2846,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1116,
-          "HypurrFi Pooled": 4296
+          "HypurrFi Pooled": 5101
         }
       }
     ],
@@ -2851,7 +2855,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 10,
-          "HypurrFi Pooled": 3995
+          "HypurrFi Pooled": 4720
         }
       }
     ],
@@ -2860,7 +2864,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 57,
-          "HypurrFi Pooled": 3628
+          "HypurrFi Pooled": 4177
         }
       }
     ],
@@ -2869,7 +2873,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 106,
-          "HypurrFi Pooled": 4672
+          "HypurrFi Pooled": 5496
         }
       }
     ],
@@ -2878,7 +2882,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 88,
-          "HypurrFi Pooled": 3900
+          "HypurrFi Pooled": 4497
         }
       }
     ],
@@ -2887,7 +2891,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 271,
-          "HypurrFi Pooled": 4558
+          "HypurrFi Pooled": 5337
         }
       }
     ],
@@ -2896,7 +2900,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 219,
-          "HypurrFi Pooled": 4740
+          "HypurrFi Pooled": 5517
         }
       }
     ],
@@ -2905,7 +2909,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 46,
-          "HypurrFi Pooled": 6194
+          "HypurrFi Pooled": 7331
         }
       }
     ],
@@ -2914,7 +2918,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 147,
-          "HypurrFi Pooled": 7737
+          "HypurrFi Pooled": 9236
         }
       }
     ],
@@ -2923,7 +2927,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1439,
-          "HypurrFi Pooled": 4671
+          "HypurrFi Pooled": 5379
         }
       }
     ],
@@ -2932,7 +2936,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 120,
-          "HypurrFi Pooled": 5042
+          "HypurrFi Pooled": 5863
         }
       }
     ],
@@ -2941,7 +2945,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 25,
-          "HypurrFi Pooled": 4424
+          "HypurrFi Pooled": 5075
         }
       }
     ],
@@ -2950,7 +2954,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 96,
-          "HypurrFi Pooled": 3235
+          "HypurrFi Pooled": 3525
         }
       }
     ],
@@ -2995,7 +2999,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 23,
-          "HypurrFi Pooled": 5576
+          "HypurrFi Pooled": 5577
         }
       }
     ],
@@ -3013,7 +3017,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 15,
-          "HypurrFi Pooled": 6496
+          "HypurrFi Pooled": 7485
         }
       }
     ],
@@ -3067,7 +3071,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 6,
-          "HypurrFi Pooled": 4744
+          "HypurrFi Pooled": 4742
         }
       }
     ],
@@ -3076,7 +3080,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 150,
-          "HypurrFi Pooled": 4789
+          "HypurrFi Pooled": 4791
         }
       }
     ],
@@ -3112,7 +3116,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 127,
-          "HypurrFi Pooled": 5816
+          "HypurrFi Pooled": 5822
         }
       }
     ],
@@ -3121,7 +3125,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 42,
-          "HypurrFi Pooled": 5745
+          "HypurrFi Pooled": 5739
         }
       }
     ],
@@ -3130,7 +3134,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 6,
-          "HypurrFi Pooled": 5605
+          "HypurrFi Pooled": 5626
         }
       }
     ],
@@ -3139,7 +3143,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 103,
-          "HypurrFi Pooled": 6036
+          "HypurrFi Pooled": 6024
         }
       }
     ],
@@ -3184,7 +3188,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 17,
-          "HypurrFi Pooled": 7051
+          "HypurrFi Pooled": 7050
         }
       }
     ],
@@ -3202,7 +3206,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 725,
-          "HypurrFi Pooled": 6746
+          "HypurrFi Pooled": 6743
         }
       }
     ],
@@ -3220,7 +3224,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 707,
-          "HypurrFi Pooled": 5899
+          "HypurrFi Pooled": 5873
         }
       }
     ],
@@ -3229,7 +3233,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 751,
-          "HypurrFi Pooled": 6200
+          "HypurrFi Pooled": 6229
         }
       }
     ],
@@ -3274,7 +3278,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 894,
-          "HypurrFi Pooled": 6801
+          "HypurrFi Pooled": 8020
         }
       }
     ],
@@ -3292,7 +3296,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 882,
-          "HypurrFi Pooled": 92
+          "HypurrFi Pooled": 6619
         }
       }
     ],
@@ -3301,7 +3305,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 901,
-          "HypurrFi Pooled": 7070
+          "HypurrFi Pooled": 8397
         }
       }
     ],
@@ -3310,7 +3314,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1028,
-          "HypurrFi Pooled": 6959
+          "HypurrFi Pooled": 6967
         }
       }
     ],
@@ -3319,7 +3323,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 969,
-          "HypurrFi Pooled": 5212
+          "HypurrFi Pooled": 6323
         }
       }
     ],
@@ -3328,7 +3332,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 1049,
-          "HypurrFi Pooled": 6618
+          "HypurrFi Pooled": 8226
         }
       }
     ],
@@ -3346,7 +3350,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 915,
-          "HypurrFi Pooled": 6766
+          "HypurrFi Pooled": 6781
         }
       }
     ],
@@ -3355,7 +3359,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 889,
-          "HypurrFi Pooled": 6631
+          "HypurrFi Pooled": 6616
         }
       }
     ],
@@ -3373,7 +3377,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 749,
-          "HypurrFi Pooled": 6127
+          "HypurrFi Pooled": 6129
         }
       }
     ],
@@ -3382,7 +3386,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 748,
-          "HypurrFi Pooled": 5943
+          "HypurrFi Pooled": 5941
         }
       }
     ],
@@ -3400,7 +3404,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 700,
-          "HypurrFi Pooled": 7612
+          "HypurrFi Pooled": 7593
         }
       }
     ],
@@ -3409,7 +3413,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 895,
-          "HypurrFi Pooled": 9267
+          "HypurrFi Pooled": 9286
         }
       }
     ],
@@ -3418,7 +3422,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 880,
-          "HypurrFi Pooled": 8872
+          "HypurrFi Pooled": 8877
         }
       }
     ],
@@ -3427,7 +3431,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 854,
-          "HypurrFi Pooled": 6154
+          "HypurrFi Pooled": 6148
         }
       }
     ],
@@ -3436,7 +3440,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 715,
-          "HypurrFi Pooled": 5340
+          "HypurrFi Pooled": 5334
         }
       }
     ],
@@ -3490,7 +3494,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 584,
-          "HypurrFi Pooled": 4244
+          "HypurrFi Pooled": 4782
         }
       }
     ],
@@ -3499,7 +3503,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 457,
-          "HypurrFi Pooled": 3983
+          "HypurrFi Pooled": 4682
         }
       }
     ],
@@ -3517,7 +3521,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 442,
-          "HypurrFi Pooled": 4584
+          "HypurrFi Pooled": 4573
         }
       }
     ],
@@ -3526,7 +3530,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 361,
-          "HypurrFi Pooled": 3796
+          "HypurrFi Pooled": 4410
         }
       }
     ],
@@ -3544,7 +3548,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 421,
-          "HypurrFi Pooled": 11
+          "HypurrFi Pooled": 4246
         }
       }
     ],
@@ -3553,7 +3557,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 492,
-          "HypurrFi Pooled": 15272
+          "HypurrFi Pooled": 3748
         }
       }
     ],
@@ -3571,7 +3575,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 302,
-          "HypurrFi Pooled": 1938
+          "HypurrFi Pooled": 2182
         }
       }
     ],
@@ -3580,7 +3584,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 321,
-          "HypurrFi Pooled": 1795
+          "HypurrFi Pooled": 2171
         }
       }
     ],
@@ -3589,7 +3593,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 266,
-          "HypurrFi Pooled": 1876
+          "HypurrFi Pooled": 2195
         }
       }
     ],
@@ -3607,7 +3611,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 309,
-          "HypurrFi Pooled": 2131
+          "HypurrFi Pooled": 2123
         }
       }
     ],
@@ -3643,7 +3647,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 242,
-          "HypurrFi Pooled": 1656
+          "HypurrFi Pooled": 1949
         }
       }
     ],
@@ -3697,7 +3701,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 191,
-          "HypurrFi Pooled": 1980
+          "HypurrFi Pooled": 1912
         }
       }
     ],
@@ -3715,7 +3719,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 172,
-          "HypurrFi Pooled": 1966
+          "HypurrFi Pooled": 1964
         }
       }
     ],
@@ -3724,7 +3728,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 220,
-          "HypurrFi Pooled": 2034
+          "HypurrFi Pooled": 2035
         }
       }
     ],
@@ -3733,7 +3737,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 289,
-          "HypurrFi Pooled": 2165
+          "HypurrFi Pooled": 2066
         }
       }
     ],
@@ -3922,7 +3926,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 328,
-          "HypurrFi Pooled": 94
+          "HypurrFi Pooled": 1597
         }
       }
     ],
@@ -3940,7 +3944,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 279,
-          "HypurrFi Pooled": 4503
+          "HypurrFi Pooled": 4697
         }
       }
     ],
@@ -3949,7 +3953,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 186,
-          "HypurrFi Pooled": 1024
+          "HypurrFi Pooled": 1243
         }
       }
     ],
@@ -4075,7 +4079,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 88,
-          "HypurrFi Pooled": 16549
+          "HypurrFi Pooled": 16550
         }
       }
     ],
@@ -4084,7 +4088,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 75,
-          "HypurrFi Pooled": 1248
+          "HypurrFi Pooled": 1247
         }
       }
     ],
@@ -4138,7 +4142,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 110,
-          "HypurrFi Pooled": 668
+          "HypurrFi Pooled": 806
         }
       }
     ],
@@ -4147,7 +4151,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 122,
-          "HypurrFi Pooled": 687
+          "HypurrFi Pooled": 826
         }
       }
     ],
@@ -4174,7 +4178,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 116,
-          "HypurrFi Pooled": 8069
+          "HypurrFi Pooled": 8479
         }
       }
     ],
@@ -4183,7 +4187,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 79,
-          "HypurrFi Pooled": 36458
+          "HypurrFi Pooled": 10961
         }
       }
     ],
@@ -4219,7 +4223,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 93,
-          "HypurrFi Pooled": 563
+          "HypurrFi Pooled": 562
         }
       }
     ],
@@ -4228,7 +4232,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 89,
-          "HypurrFi Pooled": 21892
+          "HypurrFi Pooled": 639
         }
       }
     ],
@@ -4309,7 +4313,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 59,
-          "HypurrFi Pooled": 0
+          "HypurrFi Pooled": 524
         }
       }
     ],
@@ -4426,7 +4430,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 107,
-          "HypurrFi Pooled": 9624
+          "HypurrFi Pooled": 521
         }
       }
     ],
@@ -4444,7 +4448,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 131,
-          "HypurrFi Pooled": 416
+          "HypurrFi Pooled": 498
         }
       }
     ],
@@ -4543,7 +4547,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 87,
-          "HypurrFi Pooled": 1553
+          "HypurrFi Pooled": 1644
         }
       }
     ],
@@ -4561,7 +4565,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 83,
-          "HypurrFi Pooled": 519
+          "HypurrFi Pooled": 522
         }
       }
     ],
@@ -4570,7 +4574,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 53,
-          "HypurrFi Pooled": 1243
+          "HypurrFi Pooled": 1240
         }
       }
     ],
@@ -4579,7 +4583,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 62,
-          "HypurrFi Pooled": 491
+          "HypurrFi Pooled": 489
         }
       }
     ],
@@ -4606,7 +4610,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 74,
-          "HypurrFi Pooled": 837
+          "HypurrFi Pooled": 836
         }
       }
     ],
@@ -4615,7 +4619,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 99,
-          "HypurrFi Pooled": 2130
+          "HypurrFi Pooled": 2021
         }
       }
     ],
@@ -4633,7 +4637,7 @@
       {
         "Hyperliquid L1": {
           "HypurrFi Isolated": 102,
-          "HypurrFi Pooled": 623
+          "HypurrFi Pooled": 613
         }
       }
     ],
@@ -4641,8 +4645,17 @@
       1770508800,
       {
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 97,
-          "HypurrFi Pooled": 590
+          "HypurrFi Isolated": 79,
+          "HypurrFi Pooled": 585
+        }
+      }
+    ],
+    [
+      1770595200,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 70,
+          "HypurrFi Pooled": 542
         }
       }
     ]
