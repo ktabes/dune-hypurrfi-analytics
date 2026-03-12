@@ -7,7 +7,7 @@
   "chains": [
     "Hyperliquid L1"
   ],
-  "change_1d": -29.6,
+  "change_1d": 9.66,
   "childProtocols": [
     {
       "breakdownMethodology": {
@@ -46,7 +46,7 @@
         "SupplySideRevenue": "Amount of fees distributed to suppliers.",
         "UserFees": "Interest paid by borrowers"
       },
-      "methodologyURL": "https://github.com/DefiLlama/dimension-adapters/blob/master/helpers/aave.ts",
+      "methodologyURL": "https://github.com/DefiLlama/dimension-adapters/blob/master/aave.ts",
       "name": "HypurrFi Pooled"
     },
     {
@@ -96,11 +96,11 @@
   "referralUrl": "https://app.hypurr.fi/points?af=defillama",
   "slug": "hypurrfi",
   "symbol": "-",
-  "total24h": 497,
-  "total30d": 15979,
-  "total48hto24h": 706,
-  "total7d": 3963,
-  "totalAllTime": 1034849,
+  "total24h": 545,
+  "total30d": 15900,
+  "total48hto24h": 497,
+  "total7d": 3925,
+  "totalAllTime": 1035364,
   "totalDataChart": [
     [
       1740096000,
@@ -1636,7 +1636,11 @@
     ],
     [
       1773187200,
-      564
+      545
+    ],
+    [
+      1773273600,
+      534
     ]
   ],
   "totalDataChartBreakdown": [
@@ -5043,8 +5047,17 @@
       1773187200,
       {
         "Hyperliquid L1": {
-          "HypurrFi Isolated": 38,
-          "HypurrFi Pooled": 526
+          "HypurrFi Isolated": 39,
+          "HypurrFi Pooled": 506
+        }
+      }
+    ],
+    [
+      1773273600,
+      {
+        "Hyperliquid L1": {
+          "HypurrFi Isolated": 25,
+          "HypurrFi Pooled": 509
         }
       }
     ]
